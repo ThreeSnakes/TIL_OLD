@@ -33,3 +33,33 @@ done
 
 *참조*
 - [개발자가 처음 Docker 접할때 오는 멘붕 몇가지](http://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/)
+
+---
+2018.03.06 내용 추가.
+
+로그를 어떻게 볼것인가 고민 하다가 간단히 해결방법을 찾아서 다시 작성한다. 
+
+사실 해당 프로젝트에서 로그를 파일로 남기고 있는데 있었는데 이걸 tail로 계속 뿌려주면 되는것이다. 
+
+그런데 해당 app이 실행 될때 까지의 시간이 조금 소요 되므로 로그 파일이 생성되기 전인데 -_-;;
+
+해당 로그 파일을 먼저 생성 시킨 다음에 tail 명령어로 계속 읽으면 된다.
+
+
+``` bash
+java -classpath ${CLASSPATH} com.ar.finger.tracker.main.Server > /dev/null &
+
+mkdir -p /root/xxxxxx/logs ## 로그 디렉토리 생성.
+touch "${LOG_HOME}/xxxxxx.log" ## 로그 파일 미리 생성해 놓는다. 
+tail -f "${LOG_HOME}/xxxxxx.log" ## 해당 로그 파일을 계속 추적한다. 
+
+while true; ## 이부분 코드가 쓸모 없어졌다. 
+  do echo "still live"; 
+  sleep 600; 
+done
+```
+이렇게 수정 됬는데 tail로 로그 파일을 계속 읽어서 while문도 사실상 필요가 없어 졌다.
+
+하지만 또다른 이슈가 있다. 로그 파일이 로테이트로 일마다 생성이 되는데.... 해당 일에 맞추어서 읽고 있는지 확인은 아직 못해 봤다. -_-
+
+이부분은 다시 찾아 봐야 겠다. 
