@@ -1,22 +1,9 @@
-## javascript
-
-**Today I Leaned**
-
-java script 공부하나거나 사용하면서
-
-또 사용될꺼 같거나 기억해야 될거 저장해놓은 아카이브이다.
-
-볼건 없다.
+# JavaScript
 
 ### 목차
-- [1000단위마다 컴마찍기.]()
-- [비구조 할당.]()
-- [async waterfall()]()
+- [1000단위마다 컴마찍기](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/1000-comma.md)
+- [비구조 할당.](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/destructuring-assignment.md)
+- [async waterfall()](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/async-waterfall.md)
 
 ### BOOK
-- [자바스크립트 완벽 가이드]()
-    - [Chapter.1 자바스크립트 소개]()
-    - [Chapter.2 어휘구조]()
-    - [Chapter.3 데이터 타입과 값]()
-    - [Chapter.4 변수]()
-    - [Chapter.5 표현식과 연산자]()
+- [자바스크립트 완벽 가이드](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C)
