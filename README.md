@@ -5,6 +5,8 @@ Today I Leaned....
 
 - [AWS](https://github.com/ThreeSnakes/TIL/tree/master/AWS)
     - [GCM Test Server](https://github.com/ThreeSnakes/TIL/blob/master/AWS/gcm-test-server.md)
+    - [AWS WebServer용 Image Init Script](https://github.com/ThreeSnakes/TIL/blob/master/AWS/init-script.md)
+    - [DynamoDB Backup && Test](https://github.com/ThreeSnakes/TIL/blob/master/AWS/dynamo-db-backup-and-test.md)
 - [Algorithm](https://github.com/ThreeSnakes/TIL/tree/master/Algorithm)
 - [Android](https://github.com/ThreeSnakes/TIL/tree/master/Android)
     - [Internal, External Memory size 구하기](https://github.com/ThreeSnakes/TIL/blob/master/Android/get-size-internal-external-memory-size.md)
@@ -55,5 +57,3 @@ Today I Leaned....
     - [GitHub 맥용 SourceTree에서 인증 안될때 대처방법](https://github.com/ThreeSnakes/TIL/blob/master/Tool/tool-mac-sourcetree-github-connect.md)
 - [Web](https://github.com/ThreeSnakes/TIL/tree/master/Web)
     - [RestAPI && GraphQL](https://github.com/ThreeSnakes/TIL/blob/master/Web/restapi-graphQL.md)
-
-
