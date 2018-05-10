@@ -55,6 +55,8 @@ Today I Leaned....
         - [jasmine-node(BDD Testing 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/jasmine-node.md)
 - [Python](https://github.com/ThreeSnakes/TIL/tree/master/Python)
 - [Spring](https://github.com/ThreeSnakes/TIL/tree/master/Spring)
+    - [JPA 테이블 대소문자 구분](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa-setting-utf8.md)
+    - [Hibernate 에서 @Query에서 한글 사용시 못찾는 경우](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa-using-uppercase-table-name.md)
 - [TOOL](https://github.com/ThreeSnakes/TIL/tree/master/Tool)
     - [GitHub 맥용 SourceTree에서 인증 안될때 대처방법](https://github.com/ThreeSnakes/TIL/blob/master/Tool/tool-mac-sourcetree-github-connect.md)
 - [Web](https://github.com/ThreeSnakes/TIL/tree/master/Web)

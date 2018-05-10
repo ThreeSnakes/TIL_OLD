@@ -1,6 +1,8 @@
 # Spring FrameWork
 
 ### 목차
+- [JPA 테이블 대소문자 구분](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa-setting-utf8.md)
+- [Hibernate 에서 @Query에서 한글 사용시 못찾는 경우](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa-using-uppercase-table-name.md)
 
 ### 교육
 - T-아카데미 Spring FrameWork Basic
