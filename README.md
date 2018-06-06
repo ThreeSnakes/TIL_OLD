@@ -31,6 +31,7 @@ Today I Leaned....
 - [case문 사용법](https://github.com/ThreeSnakes/TIL/blob/master/DB/db-mysql-case.md)
 - [DELETE 쿼리가 엄청 느릴 경우](https://github.com/ThreeSnakes/TIL/blob/master/DB/db-mysql-slow-delete-query.md)
 - [DISTINCT와 GROUP BY 차이점](https://github.com/ThreeSnakes/TIL/blob/master/DB/different-groupby-distinct.md)
+- [MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이](https://github.com/ThreeSnakes/TIL/blob/master/DB/db-mysql-1:1.md)
 ---
 [Docker](https://github.com/ThreeSnakes/TIL/tree/master/Docker)
 - [Docker에서 Script 파일로 서버 동작하기.](https://github.com/ThreeSnakes/TIL/blob/master/Docker/Docker%EC%97%90%EC%84%9C%20script%20%ED%8C%8C%EC%9D%BC%EB%A1%9C%20%EC%84%9C%EB%B2%84%20%EB%8F%99%EC%9E%91%ED%95%98%EA%B8%B0.md)
