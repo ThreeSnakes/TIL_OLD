@@ -3,7 +3,7 @@ Today I Leaned....
 
 하루에 한번씩 올리도록 노력해 보자. !!!
 
-[블로그](https://threesnakes.github.io/)도 한번 방문 부탁드립니다!
+[블로그](http://sorm.tistory.com/)도 한번 방문 부탁드립니다!
 ---
 [AWS](https://github.com/ThreeSnakes/TIL/tree/master/AWS)
 - [GCM Test Server](https://github.com/ThreeSnakes/TIL/blob/master/AWS/gcm-test-server.md)
