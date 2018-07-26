@@ -53,6 +53,8 @@ Today I Leaned....
 - [1000단위마다 컴마찍기](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/1000-comma.md)
 - [비구조 할당.](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/destructuring-assignment.md)
 - [async waterfall()](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/async-waterfall.md)
+- [URL encode/decode 함수 종류 및 설명](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/url-encode-decode.md)
+- [어떻게 최적화된 자바스크립트 코드를 작성할 것인가](https://github.com/ThreeSnakes/TIL/blob/master/JavaScript/how-to-write-js-as-well.md)
 ---
 [Linux](https://github.com/ThreeSnakes/TIL/tree/master/Linux)
 - [특정 위치에 있는 파일 삭제하기](https://github.com/ThreeSnakes/TIL/blob/master/Linux/%ED%8A%B9%EC%A0%95%20%EC%9C%84%EC%B9%98%EC%97%90%20%EC%9E%88%EB%8A%94%20%ED%8C%8C%EC%9D%BC%20%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0.md)
