@@ -8,8 +8,8 @@
 
 ### 목차
 - 1부 네트워킹 기초
-    - 1장 레이턴시와 대역폭 이해의 첫걸음
-    - 2장 TCP의 구성요소
+    - [1장 레이턴시와 대역폭 이해의 첫걸음](https://github.com/ThreeSnakes/TIL/blob/master/Book/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%EA%B3%BC%20%EC%9B%B9%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EA%B8%B0%EB%B2%95/chapter/chapter_1.md)
+    - 2장 TCP의 구성요소ß
     - 3장 UDP의 구성요소
     - 4장 전송 계층 보안
 - 2부 무선 네트워크 성능
