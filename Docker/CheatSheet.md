@@ -40,6 +40,12 @@ docker images -a
 docker rmi $(docker images -q) 
 ```
 
+#### 컨테이너 접속하기
+``` bash
+# 컨테이너 접속
+docker exec -i '컨테이너ID'
+```
+
 #### Docker 마법의 주문(!?)
 ```
 # 컨테이너/이미지 전부 삭제. 이러면 다시 컨테이너를 구성하고 이미지 받는데 오래 걸림..
