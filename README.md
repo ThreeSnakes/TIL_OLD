@@ -33,7 +33,7 @@ Today I Leaned....
 - [리눅스 커맨드라인 완벽 입문서](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%BB%A4%EB%A7%A8%EB%93%9C%EB%9D%BC%EC%9D%B8%20%EC%99%84%EB%B2%BD%20%EC%9E%85%EB%AC%B8%EC%84%9C)
 - [구글 엔지니어에게 듣는 네트워킹과 웹 성능 최적화 기법](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%EA%B3%BC%20%EC%9B%B9%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EA%B8%B0%EB%B2%95)
 - [모던 자바스크립트 입문](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%85%EB%AC%B8)
-
+- [디스커버리 Go](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC%20Go%20%EC%96%B8%EC%96%B4)
 ---
 [DB](https://github.com/ThreeSnakes/TIL/tree/master/DB)
 
