@@ -63,8 +63,8 @@ func ExampleHasConsonantSuffix() {
 - 다만 Go를 GVM으로 설치해서 그런지 `go test`로 실행시 에러가 발생.
 - vs code 기능에서 Test 구동시 정상 작동. 이게 더 편한 거 같기도 하고...
 
-![vscode test](Book/디스커버리 Go 언어/images/test.png)
-![vscode test result](Book/디스커버리 Go 언어/images/test-result.png)
+![vscode test](https://github.com/ThreeSnakes/TIL/blob/master/Book/%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC%20Go%20%EC%96%B8%EC%96%B4/images/test.png)
+![vscode test result](https://github.com/ThreeSnakes/TIL/blob/master/Book/%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC%20Go%20%EC%96%B8%EC%96%B4/images/test-result.png)
 
 ##### 바이트 단위 처리
 
