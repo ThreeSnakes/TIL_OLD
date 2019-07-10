@@ -1,4 +1,5 @@
 # TIL
+
 Today I Leaned....
 
 하루에 한번씩 올리도록 노력해 보자. !!!
@@ -34,6 +35,8 @@ Today I Leaned....
 - [구글 엔지니어에게 듣는 네트워킹과 웹 성능 최적화 기법](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%EA%B3%BC%20%EC%9B%B9%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EA%B8%B0%EB%B2%95)
 - [모던 자바스크립트 입문](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%85%EB%AC%B8)
 - [디스커버리 Go](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC%20Go%20%EC%96%B8%EC%96%B4)
+- [ProGit 2/E](https://github.com/ThreeSnakes/TIL/tree/master/Book)
+
 ---
 [DB](https://github.com/ThreeSnakes/TIL/tree/master/DB)
 
@@ -68,6 +71,7 @@ Today I Leaned....
 [HTML](https://github.com/ThreeSnakes/TIL/tree/master/HTML)
 
 - [display](https://github.com/ThreeSnakes/TIL/blob/master/HTML/display.md)
+- [영역을 초과하는 테스트 줄임 표시하기](https://github.com/ThreeSnakes/TIL/blob/master/HTML/%EB%A9%80%ED%8B%B0%EB%9D%BC%EC%9D%B8%20%EB%A7%90%EC%A4%84%EC%9E%84.md)
 
 ---
 [Java](https://github.com/ThreeSnakes/TIL/tree/master/Java)
