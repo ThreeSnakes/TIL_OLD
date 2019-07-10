@@ -23,7 +23,7 @@ Today I Leaned....
 - [Network Change Receiver](https://github.com/ThreeSnakes/TIL/blob/master/Android/network-change-receiver.md)
 - [Intent로 데이터 전달 하기](https://github.com/ThreeSnakes/TIL/blob/master/Android/send-data-using-intent.md)
 - [동영상에서 Thumbnail 뽑아내기](https://github.com/ThreeSnakes/TIL/blob/master/Android/get-thumbnail-by-movie.md)
-- [mobile, wifi connect check](https://github.com/ThreeSnakes/TIL/blob/master/Android/check-mobile-wifi-connect.md)
+- [mobile, wi-fi connect check](https://github.com/ThreeSnakes/TIL/blob/master/Android/check-mobile-wifi-connect.md)
 
 ---
 [BOOK](https://github.com/ThreeSnakes/TIL/tree/master/Book)
@@ -35,7 +35,7 @@ Today I Leaned....
 - [구글 엔지니어에게 듣는 네트워킹과 웹 성능 최적화 기법](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9%EA%B3%BC%20%EC%9B%B9%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EA%B8%B0%EB%B2%95)
 - [모던 자바스크립트 입문](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%85%EB%AC%B8)
 - [디스커버리 Go](https://github.com/ThreeSnakes/TIL/tree/master/Book/%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC%20Go%20%EC%96%B8%EC%96%B4)
-- [ProGit 2/E](https://github.com/ThreeSnakes/TIL/tree/master/Book)
+- [ProGit 2/E](https://github.com/ThreeSnakes/TIL/tree/master/Book/Pro%20Git)
 
 ---
 [DB](https://github.com/ThreeSnakes/TIL/tree/master/DB)
@@ -61,6 +61,8 @@ Today I Leaned....
 - [push한 commit 하나로 합치기](https://github.com/ThreeSnakes/TIL/blob/master/Git/combine-multiple-commit.md)
 - [Subtree 조사](https://github.com/ThreeSnakes/TIL/blob/master/Git/subtree-research.md)
 - [Subtree 사용시 child 프로젝트에서 다른 branch가져오기](https://github.com/ThreeSnakes/TIL/blob/master/Git/subtree-add-new-branch.md)
+- Book
+  - [ProGit 2/E](https://github.com/ThreeSnakes/TIL/tree/master/Book/Pro%20Git)
 
 ---
 [Golang](https://github.com/ThreeSnakes/TIL/blob/master/Golang)
@@ -93,6 +95,7 @@ Today I Leaned....
 
 ---
 [Linux](https://github.com/ThreeSnakes/TIL/tree/master/Linux)
+
 - [특정 위치에 있는 파일 삭제하기](https://github.com/ThreeSnakes/TIL/blob/master/Linux/%ED%8A%B9%EC%A0%95%20%EC%9C%84%EC%B9%98%EC%97%90%20%EC%9E%88%EB%8A%94%20%ED%8C%8C%EC%9D%BC%20%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0.md)
 - [블랙홀(/dev/null)](https://github.com/ThreeSnakes/TIL/blob/master/Linux/%EB%B8%94%EB%9E%99%ED%99%80.md)
 
@@ -101,27 +104,36 @@ Today I Leaned....
 
 ---
 [NodeJS](https://github.com/ThreeSnakes/TIL/tree/master/NodeJS)
+
 - Module
-    - [Bunyan(node.js Log 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/bunyan.md)
-    - [apidoc(api 문서 작성 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/apidoc.md)
-    - [N(Node 버전관리 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/n.md) 
-    - [NVM(Node 버전관리 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/nvm.md)
-    - [jasmine-node(BDD Testing 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/jasmine-node.md)
+
+  - [Bunyan(node.js Log 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/bunyan.md)
+  - [apidoc(api 문서 작성 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/apidoc.md)
+  - [N(Node 버전관리 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/n.md)
+  - [NVM(Node 버전관리 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/nvm.md)
+  - [jasmine-node(BDD Testing 모듈)](https://github.com/ThreeSnakes/TIL/blob/master/NodeJS/Module/jasmine-node.md)
+
 ---
 [Python](https://github.com/ThreeSnakes/TIL/tree/master/Python)
 
 ---
 [Spring](https://github.com/ThreeSnakes/TIL/tree/master/Spring)
+
 - [JPA(Java Persistence API)](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa.md)
 - [JPA 테이블 대소문자 구분](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa-setting-utf8.md)
 - [Hibernate 에서 @Query에서 한글 사용시 못찾는 경우](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa-using-uppercase-table-name.md)
 - [OneToOne Mapping 시 recursive Error](https://github.com/ThreeSnakes/TIL/blob/master/Spring/jpa-onetoone-recursive-error.md)
 - [Spring DI](https://github.com/ThreeSnakes/TIL/blob/master/Spring/DI.md)
+
 ---
 [TOOL](https://github.com/ThreeSnakes/TIL/tree/master/Tool)
+
 - [GitHub 맥용 SourceTree에서 인증 안될때 대처방법](https://github.com/ThreeSnakes/TIL/blob/master/Tool/tool-mac-sourcetree-github-connect.md)
 - [[Mac] 현재 시간 자동 입력 키도브 매크로 등록하기.](https://github.com/ThreeSnakes/TIL/blob/master/Tool/mac-datetime-keyboard-macro.md)
+
 ---
 [Web](https://github.com/ThreeSnakes/TIL/tree/master/Web)
+
 - [RestAPI && GraphQL](https://github.com/ThreeSnakes/TIL/blob/master/Web/restapi-graphQL.md)
+
 ---

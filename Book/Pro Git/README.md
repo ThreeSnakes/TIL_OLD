@@ -10,4 +10,4 @@
 
 ### 내용 정리
 
-1. [시작하기]()
+1. [시작하기](https://github.com/ThreeSnakes/TIL/master/Book/Pro%20Git/1%EC%9E%A5.%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
