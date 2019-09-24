@@ -2,7 +2,7 @@
 
 ## 날짜: 2019.08.21 ~ 2019.08.31
 
-## Chapter1. you.write(code)
+## Part1. you.write(code)
 
 ### 목차
 
