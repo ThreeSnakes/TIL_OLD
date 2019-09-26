@@ -1,6 +1,6 @@
 # Pro Git 2/E
 
-### 책 정보
+## 책 정보
 
 |지은이|옮긴이|출판사|독서 시작날짜|독서 완독날짜|
 |----|-----|----|---------|----------|
@@ -8,6 +8,6 @@
 
 위 책을 공부하면서 정리한 repository이다.
 
-### 내용 정리
+## 내용 정리
 
-1. [시작하기](https://github.com/ThreeSnakes/TIL/blob/master/Book/Pro%20Git/1%EC%9E%A5.%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
+1. [시작하기](1%EC%9E%A5.%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
