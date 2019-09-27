@@ -11,6 +11,7 @@ Today I Leaned....
 ## Categories
 
 - [Algorithm](#Algorithm)
+- [AngularJS](#AngularJS)
 - [AWS](#AWS)
 - [Book](#Book)
 - [CSS](#CSS)
@@ -28,14 +29,18 @@ Today I Leaned....
 
 ---
 
+### [Algorithm](Algorithm)
+  
+- [풀어본 문제](Algorithm)
+
+### [AngularJS](AngularJS)
+
+- [ng-style 사용법](AngualrJS/ng-style.md)
+
 ### [AWS](AWS)
 
 - [AWS WebServer용 Image Init Script](AWS/init-script.md)
 - [DynamoDB Backup && Test](AWS/dynamo-db-backup-and-test.md)
-
-### [Algorithm](Algorithm)
-  
-- [풀어본 문제](Algorithm)
 
 ### [BOOK](Book)
 
