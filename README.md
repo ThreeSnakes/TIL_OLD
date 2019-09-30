@@ -93,6 +93,7 @@ Today I Leaned....
 - [URL encode/decode 함수 종류 및 설명](JavaScript/url-encode-decode.md)
 - [어떻게 최적화된 자바스크립트 코드를 작성할 것인가](JavaScript/how-to-write-js-as-well.md)
 - [Array.prototype.sort()](JavaScript/array-sort.md)
+- [Map](JavaScript/map.md)
 
 ### [Linux](Linux)
 
