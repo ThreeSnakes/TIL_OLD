@@ -14,3 +14,4 @@
 ## Chapter
 
 - [Chapter01. Node.js 플랫폼에 오신 것을 환영 합니다.](contents/chapter_1.md)
+- [Chapter02. Node.js 필수 패턴](contents/chapter_2.md)
