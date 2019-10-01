@@ -38,3 +38,10 @@ for (const entry of tests) {
   console.log((entry[0]() === entry[1] ? 'PASS' : 'FAIL'))
 }
 ```
+
+Object를 이용한 Map과 Map()을 이용해서 사용한것중 어느것이 더 좋을까.?
+
+잦은 데이터 갱신과 적은 데이터 출력에는 Object를 이용한 Map이 좋고 많은 데이터를 출력할 경우에는 Map()을 이용하는 것이 좋다고 한다.
+
+**참조**
+[JeongTaekYu님 미디엄 블로그](https://medium.com/@wdjty326/javascript-es6-map-vs-object-performance-비교-7f98e30bf6c8)
