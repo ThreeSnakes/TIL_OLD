@@ -68,6 +68,7 @@ Today I Leaned....
 
 ### [Git](Git)
 
+- [git Cheat Sheet](Git/cheatsheet.md)
 - [git ignore Setting](Git/gitignore.md)
 - [git file 상태 Unstage로 변경하기](Git/change-stage-to-unstage.md)
 - [push한 commit 하나로 합치기](Git/combine-multiple-commit.md)
