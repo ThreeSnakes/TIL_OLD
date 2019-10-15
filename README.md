@@ -117,6 +117,7 @@ Today I Leaned....
 
 ### [NodeJS](NodeJS)
 
+- [배차 작업 등록시 주의해야 할점](NodeJS/batch.md)
 - Module
 
   - [Bunyan(node.js Log 모듈)](NodeJS/Module/bunyan.md)
