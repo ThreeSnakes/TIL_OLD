@@ -108,6 +108,7 @@ Today I Leaned....
 
 ### [MySQL](MySQL)
 
+- [CheatSheet](DB/cheat_sheet.md)
 - [INDEX 기본 사용법](DB/db-mysql-index.md)
 - [DB에서 null값, null 아닌값 검색](DB/db-mysql-find-null.md)
 - [case문 사용법](DB/db-mysql-case.md)

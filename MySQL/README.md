@@ -2,6 +2,7 @@
 
 ## 목차
 
+- [CheatSheet](cheat_sheet.md)
 - [INDEX 기본 사용법](db-mysql-index.md)
 - [DB에서 null값, null 아닌값 검색](db-mysql-find-null.md)
 - [case문 사용법](db-mysql-case.md)
