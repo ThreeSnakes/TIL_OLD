@@ -2,12 +2,43 @@
 
 ## 목차
 
+- [테이블 추가](#테이블-추가)
+- [테이블 삭제](#테이블-삭제)
 - [컬럼 추가](#컬럼-추가)
 - [컬럼 수정](#컬럼-수정)
 - [DB 커넥션 개수 체크 및 상태 확인](db-커넥션-개수-체크-및-상태-확인)
 - [유니크 키 삽입](#유니크-키-삽입)
 - [유니크/인덱스 삭제](#유니크/인덱스-삭제)
 - [ROW 업데이트](#ROW-업데이트)
+
+### 테이블 추가
+
+``` sql
+CREATE TABLE `테이블 명` (
+  `컬럼명` 컬럼 타입
+  PRIMARY KEY (`컬럼명`)
+) 테이블 설정
+
+-- EX
+CREATE TABLE `SERVICE_TYPE_HAS_CATEGORY` (
+  `service_type_has_category_id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'primary key',
+  `service_type_id` int(11) NOT NULL DEFAULT 0 COMMENT 'SERVICE_TYPE pkid',
+  `service_category_id` int(11) NOT NULL DEFAULT 0 COMMENT 'SERVICE_CATEGORY pkid',
+  `c_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '생성 시간',
+  `m_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '수정 시간',
+  PRIMARY KEY (`service_type_has_category_id`),
+  UNIQUE KEY `type_category_maaping` (`service_type_id`, `service_category_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT '코멘트~~~';
+```
+
+### 테이블 삭제
+
+``` sql
+DROP TABLE `테이블명`
+
+-- EX
+DROP TABLE `SERVICE_TYPE_HAS_CATEGORY`;
+```
 
 ### 컬럼 추가
 
