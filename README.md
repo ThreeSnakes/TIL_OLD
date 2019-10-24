@@ -96,6 +96,7 @@ Today I Leaned....
 - [어떻게 최적화된 자바스크립트 코드를 작성할 것인가](JavaScript/how-to-write-js-as-well.md)
 - [Array.prototype.sort()](JavaScript/array-sort.md)
 - [Map](JavaScript/map.md)
+- [정규 표현식](JavaScript/regex.md)
 
 ### [Linux](Linux)
 
