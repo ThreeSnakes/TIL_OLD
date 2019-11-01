@@ -74,7 +74,8 @@ Today I Leaned....
 - [push한 commit 하나로 합치기](Git/combine-multiple-commit.md)
 - [Subtree 조사](Git/subtree-research.md)
 - [Subtree 사용시 child 프로젝트에서 다른 branch가져오기](Git/subtree-add-new-branch.md)
-- [github에 100MB 이상 파일 업로드 하는 방법](Git/upload_large_file.md)
+- [Github에 100MB 이상 파일 업로드 하는 방법](Git/upload_large_file.md)
+- [Github Pull Request 템플릿 적용 방법](Git/pr_template.md)
 
 ### [Go](Go)
 
@@ -89,14 +90,14 @@ Today I Leaned....
 
 ### [JavaScript](JavaScript)
 
-- [1000단위마다 컴마찍기](JavaScript/1000-comma.md)
-- [비구조 할당.](JavaScript/destructuring-assignment.md)
+- [비구조 할당](JavaScript/destructuring-assignment.md)
+- [정규 표현식](JavaScript/regex.md)
+- [Map](JavaScript/map.md)
 - [async waterfall()](JavaScript/async-waterfall.md)
 - [URL encode/decode 함수 종류 및 설명](JavaScript/url-encode-decode.md)
 - [어떻게 최적화된 자바스크립트 코드를 작성할 것인가](JavaScript/how-to-write-js-as-well.md)
 - [Array.prototype.sort()](JavaScript/array-sort.md)
-- [Map](JavaScript/map.md)
-- [정규 표현식](JavaScript/regex.md)
+- [1000단위마다 컴마찍기](JavaScript/1000-comma.md)
 
 ### [Linux](Linux)
 
