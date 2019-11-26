@@ -93,6 +93,7 @@ Today I Leaned....
 - [비구조 할당](JavaScript/destructuring-assignment.md)
 - [정규 표현식](JavaScript/regex.md)
 - [Map](JavaScript/map.md)
+- [Reduce](JavaScript/reduce.md)
 - [async waterfall()](JavaScript/async-waterfall.md)
 - [URL encode/decode 함수 종류 및 설명](JavaScript/url-encode-decode.md)
 - [어떻게 최적화된 자바스크립트 코드를 작성할 것인가](JavaScript/how-to-write-js-as-well.md)
