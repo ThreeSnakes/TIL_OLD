@@ -51,3 +51,5 @@
   - [(NO. 11654) 아스키 코드.](baekjoon/quiz/11654.md)
 - [HackerRank](https://www.hackerrank.com)
   - [balanced-brackets](hackerrank/quiz/balanced-brackets.md)
+- [LeetCode](https://leetcode.com/)
+  - [Two Sum](leet_code/quiz/1_two_sum.md)
