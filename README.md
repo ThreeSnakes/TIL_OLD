@@ -58,8 +58,8 @@ Today I Leaned....
 
 ### [CSS](CSS)
 
-- [display](HTML/display.md)
-- [영역을 초과하는 테스트 줄임 표시하기](HTML/multi_line_text_overflow.md)
+- [display](CSS/display.md)
+- [영역을 초과하는 테스트 줄임 표시하기](CSS/multi_line_text_overflow.md)
 
 ### [Docker](Docker)
 
