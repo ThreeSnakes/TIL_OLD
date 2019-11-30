@@ -1,4 +1,4 @@
-# 1.Two Sum
+# 1.[Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 ## Problem
 
@@ -17,7 +17,7 @@ return [0, 1].
 
 ---
 
-## My result
+## My Result
 
 ``` js
 var twoSum = function(nums, target) {
@@ -34,6 +34,3 @@ var twoSum = function(nums, target) {
   return result;
 };
 ```
-
----
-- [leetcode original problem](https://leetcode.com/problems/two-sum/)

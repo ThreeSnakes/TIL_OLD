@@ -1,6 +1,6 @@
-# 알고리즘 공부한 것을 모아놓은 곳이다.
+# 알고리즘 공부한 것을 모아놓은 곳이다
 
-## 문제는 [BAEKJOON ONLIME JUDGE](https://www.acmicpc.net/)와 [HackerRank](https://www.hackerrank.com)에서 풀었다. 
+## 문제는 [BAEKJOON ONLIME JUDGE](https://www.acmicpc.net/)와 [HackerRank](https://www.hackerrank.com), [leetCode](https://leetcode.com/)에서 풀었다
 
 이곳은 내가 풀었던 문제의 소감 및 코드를 간단하게 정리한 아카이브이다.
 
@@ -53,3 +53,4 @@
   - [balanced-brackets](hackerrank/quiz/balanced-brackets.md)
 - [LeetCode](https://leetcode.com/)
   - [Two Sum](leet_code/quiz/1_two_sum.md)
+  - [2_add_two_numbers](leet_code/quiz/2_add_two_numbers.md)

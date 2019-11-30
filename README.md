@@ -59,7 +59,7 @@ Today I Leaned....
 ### [CSS](CSS)
 
 - [display](HTML/display.md)
-- [영역을 초과하는 테스트 줄임 표시하기](HTML/%EB%A9%80%ED%8B%B0%EB%9D%BC%EC%9D%B8%20%EB%A7%90%EC%A4%84%EC%9E%84.md)
+- [영역을 초과하는 테스트 줄임 표시하기](HTML/multi_line_text_overflow.md)
 
 ### [Docker](Docker)
 
@@ -122,7 +122,7 @@ Today I Leaned....
 
 ### [NodeJS](NodeJS)
 
-- [배차 작업 등록시 주의해야 할점](NodeJS/batch.md)
+- [배치 작업 등록시 주의해야 할점](NodeJS/batch.md)
 - Module
 
   - [Bunyan(node.js Log 모듈)](NodeJS/Module/bunyan.md)
@@ -145,6 +145,6 @@ Today I Leaned....
 
 ### [ETC](ETC)
 
-- [GitHub 맥용 SourceTree에서 인증 안될때 대처방법](ETC/tool-mac-sourcetree-github-connect.md)
+- [GitHub 맥용 SourceTree에서 인증 안될때 대처방법](ETC/tool-mac-source-tree-github-connect.md)
 - [[Mac] 현재 시간 자동 입력 키도브 매크로 등록하기.](ETC/mac-datetime-keyboard-macro.md)
-- [Kibaba](ETC/kibana.md)
+- [Kibana](ETC/kibana.md)
