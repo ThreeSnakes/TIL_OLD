@@ -16,3 +16,4 @@
 2. [Part 2. 연습을 통해 완벽해진다](contents/part_2.md)
 3. [Part 3. 개인적인 일로 받아들이기](contents/part_3.md)
 4. [Part 4. 일 끝내기](contents/part_4.md)
+5. [Part 5. 사람의 일](contents/part_5.md)
