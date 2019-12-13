@@ -114,13 +114,13 @@ Today I Leaned....
 
 ### [MySQL](MySQL)
 
-- [CheatSheet](DB/cheat_sheet.md)
-- [INDEX 기본 사용법](DB/db-mysql-index.md)
-- [DB에서 null값, null 아닌값 검색](DB/db-mysql-find-null.md)
-- [case문 사용법](DB/db-mysql-case.md)
-- [DELETE 쿼리가 엄청 느릴 경우](DB/db-mysql-slow-delete-query.md)
-- [DISTINCT와 GROUP BY 차이점](DB/different-groupby-distinct.md)
-- [MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이](DB/db-mysql-1:1.md)
+- [CheatSheet](MySQL/cheat_sheet.md)
+- [INDEX 기본 사용법](MySQL/db-mysql-index.md)
+- [DB에서 null값, null 아닌값 검색](MySQL/db-mysql-find-null.md)
+- [case문 사용법](MySQL/db-mysql-case.md)
+- [DELETE 쿼리가 엄청 느릴 경우](MySQL/db-mysql-slow-delete-query.md)
+- [DISTINCT와 GROUP BY 차이점](MySQL/different-groupby-distinct.md)
+- [MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이](MySQL/db-mysql-1:1.md)
 
 ### [NodeJS](NodeJS)
 
