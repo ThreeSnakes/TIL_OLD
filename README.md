@@ -125,6 +125,7 @@ Today I Leaned....
 
 ### [NodeJS](NodeJS)
 
+- [JavaScript heap out of memory 에러 해결 방법](NodeJS/err_heap_out_of_memory.md)
 - [배치 작업 등록시 주의해야 할점](NodeJS/batch.md)
 - Module
 
