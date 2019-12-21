@@ -1,4 +1,4 @@
-# JavaScript heap out of memory 에러 해결 방법
+# heap out of memory 에러 해결 방법
 
 블로그에 글을 쓰고 배포를 진행하는데 다음과 같은 에러가 발생하면서 배포에 실패하고 있었다. 일단 로그를 보자.
 

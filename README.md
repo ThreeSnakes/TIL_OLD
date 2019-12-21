@@ -125,10 +125,9 @@ Today I Leaned....
 
 ### [NodeJS](NodeJS)
 
-- [JavaScript heap out of memory 에러 해결 방법](NodeJS/err_heap_out_of_memory.md)
+- [heap out of memory 에러 해결 방법](NodeJS/err_heap_out_of_memory.md)
 - [배치 작업 등록시 주의해야 할점](NodeJS/batch.md)
 - Module
-
   - [Bunyan(node.js Log 모듈)](NodeJS/Module/bunyan.md)
   - [apidoc(api 문서 작성 모듈)](NodeJS/Module/apidoc.md)
   - [N(Node 버전관리 모듈)](NodeJS/Module/n.md)
