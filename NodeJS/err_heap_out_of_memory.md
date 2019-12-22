@@ -31,7 +31,7 @@
 8:40:15 PM: Aborted (core dumped)
 ```
 
-키워드로 **CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of** 를 검색해보니 해당 에러는 V8dml 힙 메모리 할당 한계 사이즈를 넘어서는 메모리 할당이 일어나서 발생한 버그라고 한다. 이럴때는 메모리 할당 한계 사이즈를 늘려 주면 된다고 한다.
+키워드로 **CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of** 를 검색해보니 해당 에러는 V8의 힙 메모리 할당 한계 사이즈를 넘어서는 메모리 할당이 일어나서 발생한 버그라고 한다. 이럴때는 메모리 할당 한계 사이즈를 늘려 주면 된다고 한다.
 
 ``` bash
 # 다음 명령어로 설정을 할 수 있다.
