@@ -197,3 +197,57 @@
 
       - 메서드를 일부만 호출자에게 공개하고, 불변객체로 하고 싶은 변수들을 프라이빗 변수처럼 다루는 객체 리터럴 인터페이스를 반환하는 형식이다. 이런 변수는 클로져(closure)를 거쳐야만 객체 리터럴에 접근 할 수 있다. 이렇게 반환된 객체는 사실상 변이를 일으키는 메서드가 전혀 없는 기본형처럼 작동한다.
       - 값 객체 패턴은 이상적이지만, 실세계의 문제를 전부 모형화하기엔 충분하지 않다. 실무에서는 레거시 객체와 상호작용하거나 계층적 데이터를 처리하는 코드가 필요할 경우가 생긴다. 이럴때는 **Object.freeze**를 사용한다.
+    - 가동부의 깊이를 동결하는 방법
+      - **Object.freeze()** 함수는 writable 속성을 false로 셋팅해서 객체 상태를 변경하지 못하도록 동결한다.
+
+      ``` js
+      class Person {
+        constructor(name, age) {
+          this.name = name;
+          this.age = age;
+        }
+      };
+
+      const jonathan = new Person( 'jonathan', 10);
+      Object.freeze(jonathan);
+      jonathan.name = 20; // 책에서는 이경우 에러가 발생한다 하는데.. 에러가 안발생함..
+      console.log(jonathan) // Person { name: 'jonathan', age: 10 } -> 값이 변경되지 않음
+
+      const ted = new Person({ last: "ted", first: "chang" }, 10);
+      Object.freeze(ted);
+      ted.age = 20;
+      ted.name.last = "whang";
+      console.log(ted); // Person { name: { last: 'whang', first: 'chang' }, age: 10 }
+                        // name 객체 속성은 변경이 되는 것을 볼 수 있는데 freeze는 중첩된 객체 속성까지 동결하지는 않는다.
+      ```
+
+      - 위에 예제에서 본것 처럼 중첩된 객체 속성까지는 동결하지는 않기 때문에 하위 객체까지 확실하게 동결 하고 싶을 경우에는 객체 내부를 일일이 **freeze()** 해줘야 한다. 이처럼 최상위 객체만 동결하는 것을 **얕은 동결(shallow freeze)**라고 한다.
+      - **값 객체 패턴, Object.freeze()** 등은 불변성을 코드에 강조하는 기법이다. 하지만 상태를 전혀 변경하지 않는 것은 현실적이지 않는다. 따라서 자바스크립트에서는 이런 복잡성을 줄이기 위해 원본 객체에서 새로운 객체를 만드는 엄격한 정책을 적용하면 큰 도움이 된다. FP에서 **객체의 불변 상태를 한곳에서 관리하는 렌즈기법**이라 한다.
+    - 렌즈 기법
+      - OOP에서 메서드를 호출해 객체의 내부 배용을 바꾸는 것은 비일비재하다. 그 결과, 상태를 조회한 결과를 보장하기 어렵고 어떤 객체가 원래 본모습일 거라 기대했던 모듈은 기능 자체게 무용지물이 되는 경우가 발생한다. 개발자가 만약 내부 값이 바뀔 경우 새로운 객체를 만들어  반환하는 방법도 있지만 이는 따분하고 에러도 나기 쉬운 코드가 된다. 만약 도메인 모델에 속성이 100개가 넘는다면 100개 넘는 속성이 하나하나 바뀔때마다 새로운 객체를 리턴하는 코드를 짜야된다.
+      - **렌즈(lense)**, **또는 함수형 레퍼런스(Functional reference)**라고도 불리는 이 기법은 **상태적 자료형의 속성에 접근하여 분변화하는 함수형 프로그래밍 기법**이다.
+      - 렌즈를 직접 구현할 필요는 없고 **[람다JS](https://ramdajs.com/)** 라이브러리를 쓰면 쉽게 사용 가능하다.
+
+      ``` js
+      const R = require('ramda');
+
+      class Person {
+        constructor(name, age) {
+          this.name = name;
+          this.age = age;
+        }
+      };
+
+      const jonathan = new Person('jonathan', 10);
+      const ageLense = R.lensProp('age');
+      // R.set을 호출하면 원래 객체 상태는 그대로 유지한체 새로운 값이 포함된 객체 사본을 반환한다.
+      const newJonathan = R.set(ageLense, '20', jonathan);
+
+      console.log(jonathan);    // Person { name: 'jonathan', age: 10 }
+      console.log(newJonathan); // { name: 'jonathan', age: '20' } -> 사본이 생성됬다.
+      // R.view는 get method와 비슷하다.
+      console.log(R.view(ageLense, jonathan));    // 10
+      console.log(R.view(ageLense, newJonathan)); // 20
+      ```
+
+      - 렌즈는 불변 래퍼라는 보호막을 제공할 뿐만 아니라, 필드에 접근하는 로직을 객체로부터 분리하여 this에 의존할 일을 없애고 어떤 객체라도 그 내용물에 접근하여 조작할 수 있는 강력한 함수를 내어주겠다는 FP와도 잘 어울린다.
