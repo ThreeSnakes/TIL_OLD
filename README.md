@@ -144,6 +144,7 @@ Today I Leaned....
 
 ### [Web](Web)
 
+- [HTTP Method](/Web/http_method.md)
 - [RestAPI && GraphQL](Web/restapi-graphQL.md)
 
 ### [ETC](ETC)
