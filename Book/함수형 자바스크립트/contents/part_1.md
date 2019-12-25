@@ -26,7 +26,6 @@
     - 기본적으로 FP는 순수함수로 구성된 불변 프로그램을 구축을 전제로 한다. 그럼 순수 함수는 무엇일까?
       - 주어진 입력에만 의존할 뿐, 평가 도중 또는 호출 간 변경될 수 있는 숨겨진 값이나 외부 상태와 무관하게 동작하는 함수
       - 전역 객체나 레퍼런스로 전달된 매개변수를 수정하는 등 함수 스코프 밖에서 어떠한 변경도 일으키지 않는 함수
-      - 예시 코드
 
         ``` js
         // 아래 함수는 함수 밖에 있는 외부 스코프의 변수를 읽고 수정한다.
@@ -70,34 +69,34 @@
     - 이런 작은 함수 여러 개를 실행해서 하나의 큰 작업을 진행하는 것이다. 이때 **합성** 기법 개념이 나온다.
       - 설명
 
-      ``` text
-      두 함수 f, g가 있을때 이 두개를 함성하면 수학적으로 다음과 같아진다. 'f 합성 g' 라고 있는다.
-      f * g = f(g(x))
-      ```
+        ``` text
+        두 함수 f, g가 있을때 이 두개를 함성하면 수학적으로 다음과 같아진다. 'f 합성 g' 라고 있는다.
+        f * g = f(g(x))
+        ```
 
       - 예시
 
-      ``` js
-      // 위에 함성을 함수로 구현한 것이 합성 함수이다.
-      var run = function(f, g) {
-        return function(x) {
-          return f(g(x));
+        ``` js
+        // 위에 함성을 함수로 구현한 것이 합성 함수이다.
+        var run = function(f, g) {
+          return function(x) {
+            return f(g(x));
+          };
         };
-      };
 
-      const multiplier = (x) => {
-        return x * x;
-      };
+        const multiplier = (x) => {
+          return x * x;
+        };
 
-      const plus1 = (x) => {
-        return x + 1;
-      }
+        const plus1 = (x) => {
+          return x + 1;
+        }
 
-      // run에 함수 2개를 넣으면 함수가 리턴된다. 이 함수를 실행시켜야 합성 되는 것이다.
-      const test = run(multiplier, plus1);
-      // 위 코드는 결국 multiplier(plus1(x))가 된다.
-      console.log(test(10));  // 121
-      ```
+        // run에 함수 2개를 넣으면 함수가 리턴된다. 이 함수를 실행시켜야 합성 되는 것이다.
+        const test = run(multiplier, plus1);
+        // 위 코드는 결국 multiplier(plus1(x))가 된다.
+        console.log(test(10));  // 121
+        ```
 
       - 위 코드의 run처럼 다른 함수를 인수로 받는 함수를 **고계함수**라 한다.
       - lodash에도 위 run과 같은 동작을 하는 코드가 있다. 바로 _.flow, _.flowRight라는 코드인데 나중에 살펴보자.
@@ -105,15 +104,14 @@
     - **체인**은 같은 객체를 반환하는 순차적인 함수 호출이다.
     - 체인도 합성처럼 코드를 간결 명료하게 작성할 수 있다.
     - 함수 체인은 필요한 시점까지 실행을 미루는 **느긋한 평가(lazy evaluation)**을 수행한다.
-      - 예시
 
-      ``` js
-      // lodash에서 chain을 사용하면 value()를 호출해야지 값을 얻을 수 있다.
-      // 즉 value()를 호출 하지 않는다면 일련의 코드를 전부 실행하지 않는 다는 것이다.
-      _.chain(list)
-       .filter(item => item.price > 1000)
-       .value();
-      ```
+        ``` js
+        // lodash에서 chain을 사용하면 value()를 호출해야지 값을 얻을 수 있다.
+        // 즉 value()를 호출 하지 않는다면 일련의 코드를 전부 실행하지 않는 다는 것이다.
+        _.chain(list)
+        .filter(item => item.price > 1000)
+        .value();
+        ```
 
   - **리액티브 패러다임을 실현하여 이벤트 중심 코드의 복잡성을 줄인다.**
     - **리액티브 패러다임이 무엇인지 조사가 필요해 보인다. 이해를 잘 못 하겠다...**
@@ -200,26 +198,26 @@
     - 가동부의 깊이를 동결하는 방법
       - **Object.freeze()** 함수는 writable 속성을 false로 셋팅해서 객체 상태를 변경하지 못하도록 동결한다.
 
-      ``` js
-      class Person {
-        constructor(name, age) {
-          this.name = name;
-          this.age = age;
-        }
-      };
+        ``` js
+        class Person {
+          constructor(name, age) {
+            this.name = name;
+            this.age = age;
+          }
+        };
 
-      const jonathan = new Person( 'jonathan', 10);
-      Object.freeze(jonathan);
-      jonathan.name = 20; // 책에서는 이경우 에러가 발생한다 하는데.. 에러가 안발생함..
-      console.log(jonathan) // Person { name: 'jonathan', age: 10 } -> 값이 변경되지 않음
+        const jonathan = new Person( 'jonathan', 10);
+        Object.freeze(jonathan);
+        jonathan.name = 20; // 책에서는 이경우 에러가 발생한다 하는데.. 에러가 안발생함..
+        console.log(jonathan) // Person { name: 'jonathan', age: 10 } -> 값이 변경되지 않음
 
-      const ted = new Person({ last: "ted", first: "chang" }, 10);
-      Object.freeze(ted);
-      ted.age = 20;
-      ted.name.last = "whang";
-      console.log(ted); // Person { name: { last: 'whang', first: 'chang' }, age: 10 }
-                        // name 객체 속성은 변경이 되는 것을 볼 수 있는데 freeze는 중첩된 객체 속성까지 동결하지는 않는다.
-      ```
+        const ted = new Person({ last: "ted", first: "chang" }, 10);
+        Object.freeze(ted);
+        ted.age = 20;
+        ted.name.last = "whang";
+        console.log(ted); // Person { name: { last: 'whang', first: 'chang' }, age: 10 }
+                          // name 객체 속성은 변경이 되는 것을 볼 수 있는데 freeze는 중첩된 객체 속성까지 동결하지는 않는다.
+        ```
 
       - 위에 예제에서 본것 처럼 중첩된 객체 속성까지는 동결하지는 않기 때문에 하위 객체까지 확실하게 동결 하고 싶을 경우에는 객체 내부를 일일이 **freeze()** 해줘야 한다. 이처럼 최상위 객체만 동결하는 것을 **얕은 동결(shallow freeze)**라고 한다.
       - **값 객체 패턴, Object.freeze()** 등은 불변성을 코드에 강조하는 기법이다. 하지만 상태를 전혀 변경하지 않는 것은 현실적이지 않는다. 따라서 자바스크립트에서는 이런 복잡성을 줄이기 위해 원본 객체에서 새로운 객체를 만드는 엄격한 정책을 적용하면 큰 도움이 된다. FP에서 **객체의 불변 상태를 한곳에서 관리하는 렌즈기법**이라 한다.
@@ -228,26 +226,110 @@
       - **렌즈(lense)**, **또는 함수형 레퍼런스(Functional reference)**라고도 불리는 이 기법은 **상태적 자료형의 속성에 접근하여 분변화하는 함수형 프로그래밍 기법**이다.
       - 렌즈를 직접 구현할 필요는 없고 **[람다JS](https://ramdajs.com/)** 라이브러리를 쓰면 쉽게 사용 가능하다.
 
-      ``` js
-      const R = require('ramda');
+        ``` js
+        const R = require('ramda');
 
-      class Person {
-        constructor(name, age) {
-          this.name = name;
-          this.age = age;
+        class Person {
+          constructor(name, age) {
+            this.name = name;
+            this.age = age;
+          }
+        };
+
+        const jonathan = new Person('jonathan', 10);
+        const ageLense = R.lensProp('age');
+        // R.set을 호출하면 원래 객체 상태는 그대로 유지한체 새로운 값이 포함된 객체 사본을 반환한다.
+        const newJonathan = R.set(ageLense, '20', jonathan);
+
+        console.log(jonathan);    // Person { name: 'jonathan', age: 10 }
+        console.log(newJonathan); // { name: 'jonathan', age: '20' } -> 사본이 생성됬다.
+        // R.view는 get method와 비슷하다.
+        console.log(R.view(ageLense, jonathan));    // 10
+        console.log(R.view(ageLense, newJonathan)); // 20
+        ```
+
+      - 렌즈는 불변 래퍼라는 보호막을 제공할 뿐만 아니라, 필드에 접근하는 로직을 객체로부터 분리하여 this에 의존할 일을 없애고 어떤 객체라도 그 내용물에 접근하여 조작할 수 있는 강력한 함수를 내어주겠다는 FP와도 잘 어울린다.
+- **함수**
+  - FP에서 **함수**는 **작업의 기본 단위**이다. 모든일은 함수를 중심으로 행해진다.
+  - 함수(function)는 **() 연산자**를 적용하여 평가할 수 있는 모든 **호출 가능 표현식**을 가리키며, **호출자에게 계산한 값 또는 void 함수일 경우 undefined를 반환한다.** 다만 FP에서는 **사용 가능한 결과를 낼 경우에만 유의미하며**, 그 외에는 외부 데이터 변경 등의 부수효과를 일으킨다 볼 수 있다. 결국 결과를 나타낼수 있는 값많을 함수라 본다.
+  - 표현식(expression -> 값을 내는 함수)과 구문(statement -> 값을 내지 않는 함수)을 잘 구분해야 한다.
+  - 자바스크립트 함수는 모두 **Function** 형식의 인스턴스이다. **length** 속성은 **정규 매개변수 개수**를 나타내며, **apply()** 와 **call()** 메소드는 **주어진 콘텍스트로 함수를 호출 한다.**
+  - 함수를 선언하는 방법
+
+    ``` js
+    // 1.함수 선언
+    function adder(a, b) {
+      return a + b;
+    }
+
+    // 2.익명 함수
+    const adder = function (a, b) {
+      return a + b;
+    }
+
+    // 3.람다 표현식
+    const adder = (a, b) => a + b;
+
+    // 4. method 형태
+    const obj = {
+      adder: function (a, b) {
+        return a + b;
+      }
+    };
+
+    // 5. 생성자를 이용하는 방법
+    const adder = new Function('a', 'b', 'return a + b');
+    ```
+
+  - 함수는 **일급 시민**이다.
+    - 자바스크립트에서 함수는 실제로 객체이기 때문에 일급(first-class)이다. 일급의 조건은 다음과 같다.
+      - 변수에 담을 수 있어야 한다.
+      - 함수나 메소드에 인자로 넣을 수 있어야 한다.
+      - 함수나 메소드에 리턴할 수 있어야 한다.
+    - 자바스크립트에서 함수는 위 조건을 만족 하므로 일급 시민이라 할 수 있다.
+  - **고계 함수**
+    - 함수는 함수 인자로 전달하거나 함수를 반환받을 수 있다고 하였는데 이런 함수를 **고계함수(higher-order function)** 라고 한다.
+    - 자바스크립트 함수는 일급 + 고계 함수여서 여느 값이나 다름없다. 즉, 자신이 받은 입력값을 기반으로 정의된 언제가는 실행될 값에 불과 한것이다.
+    - 예시
+
+      ``` js
+      function applyOperation(a, b, opt) {
+        return opt(a, b);
+      }
+
+      const multiplier = (a, b) => a * b;
+      const applyOperation(2, 3, multiplier);   // 6
+      ```
+
+    - 자바스크립트에서 함수는 일급이라서 일단 변수에 할당한 뒤 나중에 실행해도 상관없다.
+  - 함수 호출 유형
+    - 자바스크립트는 호출 시점의 런타임 콘텍스트, 즉 함수 본체 내부의 this값을 자유롭게 지정할 수 있으며 호출 하는 방법도 다양하다.
+
+      ``` js
+      // 1. 전역 함수로 호출
+      function doWork() {
+        this.myVar = '어떤 값';
+      }
+
+      doWork();
+
+      // 2. 메소드로 호출
+      var obj = {
+        prop: '어떤 속성',
+        getProp: function() {
+          return this.prop
         }
       };
 
-      const jonathan = new Person('jonathan', 10);
-      const ageLense = R.lensProp('age');
-      // R.set을 호출하면 원래 객체 상태는 그대로 유지한체 새로운 값이 포함된 객체 사본을 반환한다.
-      const newJonathan = R.set(ageLense, '20', jonathan);
+      obj.getProp();
 
-      console.log(jonathan);    // Person { name: 'jonathan', age: 10 }
-      console.log(newJonathan); // { name: 'jonathan', age: '20' } -> 사본이 생성됬다.
-      // R.view는 get method와 비슷하다.
-      console.log(R.view(ageLense, jonathan));    // 10
-      console.log(R.view(ageLense, newJonathan)); // 20
+      // 3. new를 붙여 생성자로 호출
+      function MyType(arg) {
+        this.prop = arg;
+      }
+
+      var someVal = new MyType('test');
       ```
 
-      - 렌즈는 불변 래퍼라는 보호막을 제공할 뿐만 아니라, 필드에 접근하는 로직을 객체로부터 분리하여 this에 의존할 일을 없애고 어떤 객체라도 그 내용물에 접근하여 조작할 수 있는 강력한 함수를 내어주겠다는 FP와도 잘 어울린다.
+    - this 레퍼런스가 가리키는 대상은 어휘적 콘텍스트(코드상 위치)가 아니라 함수를 사용하는 방법(적역, 객체 메소드, 생성자 등)에 따라 달라진다. 결국 함수가 실행되는 콘텍스트를 잘 살펴봐야 한다.
+    - 하지만 **함수형 코드에서 this를 쓸 일은 거의 없으며 써서도 안된다. 마찬가지로 apply(), call()도 써서는 안된다.**
