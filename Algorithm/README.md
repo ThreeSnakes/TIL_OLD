@@ -52,5 +52,6 @@
 - [HackerRank](https://www.hackerrank.com)
   - [balanced-brackets](hackerrank/quiz/balanced-brackets.md)
 - [LeetCode](https://leetcode.com/)
-  - [Two Sum](leet_code/quiz/1_two_sum.md)
-  - [2_add_two_numbers](leet_code/quiz/2_add_two_numbers.md)
+  - [(NO. 1) Two Sum](leet_code/quiz/1_two_sum.md)
+  - [(NO. 2) add two numbers](leet_code/quiz/2_add_two_numbers.md)
+  - [(NO. 13) roman to integer](leet_code/quiz/13_roman-to-integer.md)
