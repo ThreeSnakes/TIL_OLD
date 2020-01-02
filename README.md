@@ -10,22 +10,22 @@ Today I Leaned....
 
 ## Categories
 
-- [Algorithm](#Algorithm)
-- [AngularJS](#AngularJS)
-- [AWS](#AWS)
-- [Book](#Book)
-- [CSS](#CSS)
-- [Docker](#Docker)
-- [Git](#Git)
-- [Go](#Go)
-- [Java](#JAVA)
-- [JavaScript](#JavaScript)
-- [Linux](#Linux)
-- [MySQL](#MySQL)
-- [NodeJS](#NodeJS)
-- [Spring](#Spring)
-- [Web](#Web)
-- [ETC](#ETC)
+- [Algorithm](#algorithm)
+- [AngularJS](#angularjs)
+- [AWS](#aws)
+- [BOOK](#book)
+- [CSS](#css)
+- [Docker](#docker)
+- [Git](#git)
+- [Go](#go)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Linux](#linux)
+- [MySQL](#mysql)
+- [NodeJS](#nodejs)
+- [Spring](#spring)
+- [Web](#web)
+- [ETC](#etc)
 
 ---
 
@@ -116,12 +116,13 @@ Today I Leaned....
 ### [MySQL](MySQL)
 
 - [CheatSheet](MySQL/cheat_sheet.md)
-- [INDEX 기본 사용법](MySQL/db-mysql-index.md)
-- [DB에서 null값, null 아닌값 검색](MySQL/db-mysql-find-null.md)
-- [case문 사용법](MySQL/db-mysql-case.md)
-- [DELETE 쿼리가 엄청 느릴 경우](MySQL/db-mysql-slow-delete-query.md)
+- [INDEX 기본 사용법](MySQL/index.md)
+- [DB에서 null값, null 아닌값 검색](MySQL/find-null.md)
+- [case문 사용법](MySQL/case.md)
+- [DELETE 쿼리가 엄청 느릴 경우](MySQL/slow-delete-query.md)
 - [DISTINCT와 GROUP BY 차이점](MySQL/different-groupby-distinct.md)
-- [MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이](MySQL/db-mysql-1:1.md)
+- [MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이](MySQL/1:1.md)
+- [Insert 할 때 value에 케이스 조건 주기](MySQL/insert-with-case.md)
 
 ### [NodeJS](NodeJS)
 
