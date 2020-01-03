@@ -79,6 +79,7 @@ Today I Leaned....
 - [Subtree 사용시 child 프로젝트에서 다른 branch가져오기](Git/subtree-add-new-branch.md)
 - [Github에 100MB 이상 파일 업로드 하는 방법](Git/upload_large_file.md)
 - [Github Pull Request 템플릿 적용 방법](Git/pr_template.md)
+- [Github secret 사용법](github-secret.md)
 
 ### [Go](Go)
 
