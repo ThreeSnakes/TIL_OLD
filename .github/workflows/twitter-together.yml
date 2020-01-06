@@ -20,7 +20,7 @@ jobs:
           echo ${{ github.workspace }}
           ls -al
       - name: use action/checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: console 2
         run: |
           echo ${{ github.workspace }}
