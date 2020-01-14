@@ -7,6 +7,7 @@
 - [컬럼 추가](#컬럼-추가)
 - [컬럼 수정](#컬럼-수정)
 - [유니크 키 삽입](#유니크-키-삽입)
+- [외래키 삽입](#외래키-삽입)
 - [유니크/인덱스 삭제](#유니크/인덱스-삭제)
 - [ROW 추가](#ROW-추가)
 - [ROW 업데이트](#ROW-업데이트)
@@ -71,16 +72,25 @@ ALTER TABLE `CLIENT_MAILING_SETTING` CHANGE `client_mailng_setting_id` `client_m
 ### 유니크 키 삽입
 
 ``` sql
-ALTER TABLE tablename ADD UNIQUE INDEX indexname (column1, column2);
+ALTER TABLE TableName ADD UNIQUE INDEX IndexName (column1, column2);
 
 -- EX:
 ALTER TABLE `APPROVAL_CATEGORY_BY_SERVICE` ADD UNIQUE INDEX category_key(service_id, approval_category_id, grade);
 ```
 
+### 외래키 삽입
+
+``` sql
+ALTER TABLE TableName ADD CONSTRAINT ConstraintKeyName FOREIGN KEY('columnName') REFERENCES ParentTableName ('ParentPKKeyName') [ON DELETE CASCADE / ON UPDATE CASCADE];
+
+-- EX:
+ALTER TABLE WIDGET__MAP ADD CONSTRAINT `option_id` FOREIGN KEY(`option_id`) REFERENCES WIDGET_OPTION (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE
+```
+
 ### 유니크/인덱스 삭제
 
 ``` sql
-ALTER TABLE tablename DROP INDEX indexname;
+ALTER TABLE TableName DROP INDEX IndexName;
 
 -- EX:
 ALTER TABLE `APPROVAL_CATEGORY_BY_SERVICE` DROP INDEX service_id;
