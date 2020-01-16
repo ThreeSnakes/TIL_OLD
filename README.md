@@ -2,11 +2,7 @@
 
 Today I Leaned....
 
-하루에 한번씩 올리도록 노력해 보자. !!!
-
 [블로그](https://select995.netlify.com/)도 한번 방문 부탁드립니다!
-
----
 
 ## Categories
 
@@ -27,11 +23,12 @@ Today I Leaned....
 - [Web](#web)
 - [ETC](#etc)
 
----
-
 ### [Algorithm](Algorithm)
-  
+
 - [풀어본 문제](Algorithm)
+  - [BAEKJOON ONLIME JUDGE](Algorithm/baekjoon)
+  - [HackerRank](Algorithm/hackerrank)
+  - [Leet Code](Algorithm/leet_code)
 
 ### [AngularJS](AngularJS)
 
