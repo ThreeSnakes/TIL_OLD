@@ -2,4 +2,4 @@
 
 ## 목차
 
-- [ng-style 사용법](ng-style.md)
+- [ng-style](ng-style.md)

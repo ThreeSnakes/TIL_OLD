@@ -4,7 +4,7 @@ Today I Leaned....
 
 [블로그](https://select995.netlify.com/)도 한번 방문 부탁드립니다!
 
-## Categories
+## 대분류
 
 - [Algorithm](#algorithm)
 - [AngularJS](#angularjs)
@@ -32,7 +32,7 @@ Today I Leaned....
 
 ### [AngularJS](AngularJS)
 
-- [ng-style 사용법](AngualrJS/ng-style.md)
+- [ng-style](AngualrJS/ng-style.md)
 
 ### [AWS](AWS)
 
@@ -41,8 +41,6 @@ Today I Leaned....
 
 ### [BOOK](Book)
 
-- 소프트웨어 장인
-- 소프트 스킬
 - [누구나 쉽게 배우는 파이썬 프로그래밍](Book/%EB%88%84%EA%B5%AC%EB%82%98%20%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 - [자바스크립트 완벽 가이드](Book/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C)
 - [리눅스 커맨드라인 완벽 입문서](Book/%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%BB%A4%EB%A7%A8%EB%93%9C%EB%9D%BC%EC%9D%B8%20%EC%99%84%EB%B2%BD%20%EC%9E%85%EB%AC%B8%EC%84%9C)
@@ -65,6 +63,7 @@ Today I Leaned....
 
 - [Docker 치트 시트](Docker/CheatSheet.md)
 - [Docker에서 Script 파일로 서버 동작하기.](Docker/Docker%EC%97%90%EC%84%9C%20script%20%ED%8C%8C%EC%9D%BC%EB%A1%9C%20%EC%84%9C%EB%B2%84%20%EB%8F%99%EC%9E%91%ED%95%98%EA%B8%B0.md)
+- [no space left on device Error 해결 방법](Docker/no_space_left_on_device_error.md)
 
 ### [Git](Git)
 
