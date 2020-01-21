@@ -13,5 +13,5 @@
 ## 내용 정리
 
 - [Part_1. 함수형으로 사고하기](contents/part_1.md)
-- Part_2. 함수형으로 전환하기
+- [Part_2. 함수형으로 전환하기](contents/part_2.md)
 - Part_3. 함수형 스킬 갈고닦기
