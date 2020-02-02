@@ -6,24 +6,22 @@ Today I Leaned....
 
 ## 대분류
 
-- [TIL](#til)
-  - [대분류](#대분류)
-    - [Algorithm](#algorithm)
-    - [AngularJS](#angularjs)
-    - [AWS](#aws)
-    - [BOOK](#book)
-    - [CSS](#css)
-    - [Docker](#docker)
-    - [Git](#git)
-    - [Go](#go)
-    - [Java](#java)
-    - [JavaScript](#javascript)
-    - [Linux](#linux)
-    - [MySQL](#mysql)
-    - [NodeJS](#nodejs)
-    - [Spring](#spring)
-    - [Web](#web)
-    - [ETC](#etc)
+- [Algorithm](#algorithm)
+- [AngularJS](#angularjs)
+- [AWS](#aws)
+- [BOOK](#book)
+- [CSS](#css)
+- [Docker](#docker)
+- [Git](#git)
+- [Go](#go)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Linux](#linux)
+- [MySQL](#mysql)
+- [NodeJS](#nodejs)
+- [Spring](#spring)
+- [Web](#web)
+- [ETC](#etc)
 
 ---
 
@@ -36,7 +34,7 @@ Today I Leaned....
 
 ### [AngularJS](AngularJS)
 
-- [ng-style](AngualrJS/ng-style.md)
+- [ng-style](AngularJS/ng-style.md)
 
 ### [AWS](AWS)
 
@@ -55,6 +53,7 @@ Today I Leaned....
 - [훌륭한 프로그래머 되는 법](Book/%ED%9B%8C%EB%A5%AD%ED%95%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%20%EB%90%98%EB%8A%94%20%EB%B2%95)
 - [Node.js 디자인 패턴](Book/Node.js%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4)
 - [함수형 자바스크립트](Book/%ED%95%A8%EC%88%98%ED%98%95%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+- [Real MySQL](Book/Real%20MySQL)
 
 ### [CSS](CSS)
 
@@ -79,7 +78,7 @@ Today I Leaned....
 - [Subtree 사용시 child 프로젝트에서 다른 branch가져오기](Git/subtree-add-new-branch.md)
 - [Github에 100MB 이상 파일 업로드 하는 방법](Git/upload_large_file.md)
 - [Github Pull Request 템플릿 적용 방법](Git/pr_template.md)
-- [Github secret 사용법](github-secret.md)
+- [Github secret 사용법](Git/github-secret.md)
 
 ### [Go](Go)
 
@@ -155,3 +154,4 @@ Today I Leaned....
 - [[Mac] 현재 시간 자동 입력 키도브 매크로 등록하기.](ETC/mac-datetime-keyboard-macro.md)
 - [Kibana](ETC/kibana.md)
 - [Appsflyer Cost Encryption 정리](ETC/appsflyer_cost_encryption.md)
+
