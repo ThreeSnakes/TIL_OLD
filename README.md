@@ -40,6 +40,7 @@ Today I Leaned....
 
 - [AWS WebServer용 Image Init Script](AWS/init-script.md)
 - [DynamoDB Backup && Test](AWS/dynamo-db-backup-and-test.md)
+- [Beanstalk NODE COMMAND 옵션 사용법](AWS/beanstalk-node-command.md)
 
 ### [BOOK](Book)
 
