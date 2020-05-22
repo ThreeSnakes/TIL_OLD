@@ -125,6 +125,7 @@ Today I Leaned....
 - [DISTINCT와 GROUP BY 차이점](MySQL/different-groupby-distinct.md)
 - [MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이](MySQL/1:1.md)
 - [Insert 할 때 value에 케이스 조건 주기](MySQL/insert-with-case.md)
+- [tinyint(1) vs tinyint(4)](MySQL/tinyint(1)-vs-tinyint(4).md)
 
 ### [NodeJS](NodeJS)
 
