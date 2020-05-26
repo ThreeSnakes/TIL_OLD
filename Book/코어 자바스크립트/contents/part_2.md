@@ -9,6 +9,8 @@
 1. [실행 컨텍스트란?](#실행-컨텍스트란)
 2. [VariableEnvironment](#variableenvironment)
 3. [LexicalEnvironment](#lexicalenvironment)
+    - [environmentRecord와 호이스팅](#environmentRecord와-호이스팅)
+    - [scope chain](#scope-chain)
 4. [this](#this)
 
 #### 실행 컨텍스트란?
@@ -45,18 +47,44 @@
 
   ![콜 스택](../images/call_stack.png)
 
-- *실행 컨텍스트가 콜 스택의 맨 위에 쌓이는 순간이 곧 현재 실행할 코드에 관여하게 되는 시점임을 알 수 있다.*
+- **실행 컨텍스트가 콜 스택의 맨 위에 쌓이는 순간이 곧 현재 실행할 코드에 관여하게 되는 시점임을 알 수 있다.**
 - 어떤 실행 컨텍스트가 활성화될 때 자바스크립트 엔진은 해당 컨텍스트에 관련된 코드들을 실행하는 데 필요한 환경 정보들을 수집해서 실행 컨텍스트 객체에 저장한다. 이 객체는 자바스크립트 엔진이 활용할 목적으로 생성할 뿐 개발자가 코드를 통해 확인할 수는 없다.
-  - *VariableEnvironment*
+  - **VariableEnvironment**
     - 현재 컨텍스트 내의 식별자들에 대한 정보 + 외부 환경 정보, 선언 시점의 LexicalEnvironment의 스냅샷으로, 변경 사항은 저장되지 않는다.
-  - *LexicalEnvironment*
+  - **LexicalEnvironment**
     - 처음에는 VariableEnvironment와 같지만 변경 사항이 실시간으로 반영됨
-  - *ThisBinding*
+  - **ThisBinding**
     - this 식별자가 바라봐야 할 대상 객체
 
 #### VariableEnvironment
 
+- **VariableEnvironment**에 담기는 내용은 **LexicalEnvironment**와 같지만 최초 실행 시의 스냅샷을 유지한다는 점이 다르다. 실행 컨텍스트를 생성할 때 **VariableEnvironment**에 정보를 먼저 담은 다음, 이를 그대로 복사한게 **LexicalEnvironment**이고 이후에는 이를 이용한다.
+- **VariableEnvironment** 내부에는 **environmentRecord**와 **outer-EnvironmentReference**로 구성되어 있다.
+- **LexicalEnvironment** 와는 사실상 거의 동일하다.
+
 #### LexicalEnvironment
+
+- **LexicalEnvironment**를 풀어서 설명하면 *"현재 컨텍스트의 내부에는 a, b, c와 같은 식별자들이 있고 그 외부 정보는 D를 참조하도록 구성돼 있다"*로 정리할 수 있다.
+- 결국 컨텍스트는 환경 정보들을 구성해놓은 일종의 사전이라 정리 할 수 있을것 같다.
+
+##### environmentRecord와 호이스팅
+
+- **environmentRecord**
+  - **environmentRecord**에는 현재 컨텍스트와 관련된 코드의 식별자들이 저장된다. ( 변수, 함수 등)
+  - 컨텍스트 내부 전체르르 처음부터 쭉 훑어나가며 **순서대로** 수집한다.
+  - 변수 정보를 수집하는 과정을 모두 완료했더라도 아직 실행 컨텍스트가 관여할 코드들은 실행하기 전의 상태이다. 변수 정보만 우선 수집하는 것인데 결국 자바스크립트 엔진은 코드 실행전에 모든 변수들을 알고 있게 되는 것이다.
+- **호이스팅(hoisting)**
+  - **호이스팅(hoisting)**이란 **끌어 올린다**의 뜻을 가지고 있는데 사실 변수들을 실제로 끌어 올리는 것은 아니다. 다만 바로 위에서 말했다시피 변수 정보를 우선 수집하면서 모든 정보를 알게 되면서 모든 정보를 코드를 실행전에 알기 때문에 끌어올리다란 뜻으로 간주하는 것이다.
+  - **environmentRecord**는 변수의 경우 어떤 식별자들이 있는지만 수집한다. 해당 식별자가 어떤 값을 가지고 있는지는 수집하지 않기 때문에 **변수명만 수집하고 할당과정은 원래 자리에 남겨둔다.**
+  - **함수 선언의 경우에는 함수 전체를 끌어 올린다.**
+    - 함수에는 **함수 선언문(function declaration)**과 **함수 표현식(function expression)** 두가지가 존재한다.
+    - 함수 선언문은 `function a {}` 형태로 a가 곧 변수명이 되는 것이고, 함수 표현식은 `var b = function () {}` 형태로 b가 곧 변수명이자 함수명이 된다.
+    - **이 경우 함수 선언문 함수이므로 함수 전체를 호이스팅 하지만 함수 표현식의 경우 변수명이 있으므로 변수명만 호이스팅한다.**
+- 호이스팅으로 인해서 협업을 진행할때 문제가 생기도 하는데 이를 방지하려면 다음처럼 작업을 하는것을 고려해야 한다.
+  - 전역공간에 함수를 선언하거나 같은 이름의 함수를 중복 선언하는 경우를 방지해야 한다. ( 보통 lint에서 이를 막을 수 있다. )
+  - 함수 선언문 대시 함수 표현식으로 사용하자.
+
+##### scope chain
 
 #### this
 
