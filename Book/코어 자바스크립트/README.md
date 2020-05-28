@@ -14,7 +14,7 @@
 
 1. [데이터타입](contents/part_1.md)
 2. [실행 컨텍스트](contents/part_2.md)
-3. This
+3. [this](contents/part_3.md)
 4. 콜백 함수
 5. 클로저
 6. 프로토타입
