@@ -11,3 +11,4 @@
 - [MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이](1:1.md)
 - [Insert 할 때 value에 케이스 조건 주기](insert-with-case.md)
 - [tinyint(1) vs tinyint(4)](tinyint(1)-vs-tinyint(4).md)
+- [다른 테이블의 데이터로 타겟 데이터 업데이트 하기](update_row_by_other_table_row.md)
