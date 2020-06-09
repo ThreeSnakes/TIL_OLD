@@ -128,6 +128,7 @@ Today I Leaned....
 - [Insert 할 때 value에 케이스 조건 주기](MySQL/insert-with-case.md)
 - [tinyint(1) vs tinyint(4)](MySQL/tinyint(1)-vs-tinyint(4).md)
 - [다른 테이블의 데이터로 타겟 데이터 업데이트 하기](MySQL/update_row_by_other_table_row.md)
+- [MySql에서의 비트 연산자](MySQL/bitwise_operator.md)
 
 ### [NodeJS](NodeJS)
 
@@ -159,4 +160,3 @@ Today I Leaned....
 - [[Mac] 현재 시간 자동 입력 키도브 매크로 등록하기.](ETC/mac-datetime-keyboard-macro.md)
 - [Kibana](ETC/kibana.md)
 - [Appsflyer Cost Encryption 정리](ETC/appsflyer_cost_encryption.md)
-
