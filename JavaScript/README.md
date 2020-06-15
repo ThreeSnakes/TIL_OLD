@@ -11,3 +11,4 @@
 - [어떻게 최적화된 자바스크립트 코드를 작성할 것인가](how-to-write-js-as-well.md)
 - [Array.prototype.sort()](array-sort.md)
 - [1000단위마다 컴마찍기](1000-comma.md)
+- [debounce](debounce.md)

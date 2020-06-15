@@ -105,6 +105,7 @@ Today I Leaned....
 - [어떻게 최적화된 자바스크립트 코드를 작성할 것인가](JavaScript/how-to-write-js-as-well.md)
 - [Array.prototype.sort()](JavaScript/array-sort.md)
 - [1000단위마다 컴마찍기](JavaScript/1000-comma.md)
+- [debounce](JavaScript/debounce.md)
 
 ### [Linux](Linux)
 
