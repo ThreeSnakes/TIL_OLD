@@ -6,7 +6,6 @@ Today I Leaned....
 
 ## 대분류
 
-- [Algorithm](#algorithm)
 - [AngularJS](#angularjs)
 - [AWS](#aws)
 - [BOOK](#book)
@@ -24,13 +23,6 @@ Today I Leaned....
 - [ETC](#etc)
 
 ---
-
-### [Algorithm](Algorithm)
-
-- [풀어본 문제](Algorithm)
-  - [BAEKJOON ONLIME JUDGE](Algorithm/baekjoon)
-  - [HackerRank](Algorithm/hackerrank)
-  - [Leet Code](Algorithm/leet_code)
 
 ### [AngularJS](AngularJS)
 
