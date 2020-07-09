@@ -104,10 +104,13 @@ Today I Leaned....
 - [특정 위치에 있는 파일 삭제하기](Linux/delete-file.md)
 - [블랙홀(/dev/null)](Linux/blackhole.md)
 - [alias 사용법](Linux/alias.md)
-- [grep 사용법](Linux/grep.md)
-- [chmod 사용법](Linux/chmod.md)
 - [Ubuntu 16.04 한글 입력 셋팅](Linux/setting-hangul-in-ubuntu1604.md)
 - [Vim setting](Linux/setting-vim.md)
+- 명령어
+  - [ls](Linux/ls.md)
+  - [grep](Linux/grep.md)
+  - [chmod](Linux/chmod.md)
+
 
 ### [MySQL](MySQL)
 
