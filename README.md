@@ -127,6 +127,7 @@ Today I Leaned....
 - [다른 테이블의 데이터로 타겟 데이터 업데이트 하기](MySQL/update_row_by_other_table_row.md)
 - [MySql에서의 비트 연산자](MySQL/bitwise_operator.md)
 - [lead/write lock 사용시 alias 설정](MySQL/lock_alias.md)
+- [WHERE절에 NOT IN 과 IN이 같이 들어가는 경우](MYSQL/in_and_not_in.md)
 
 ### [NodeJS](NodeJS)
 
