@@ -15,3 +15,4 @@
 - [MySql에서의 비트 연산자](./bitwise_operator.md)
 - [lead/write lock 사용시 alias 설정](./lock_alias.md)
 - [WHERE절에 NOT IN 과 IN이 같이 들어가는 경우](./in_and_not_in.md)
+- [max_allowed_packet 설정](./max_allowed_packet.md)
