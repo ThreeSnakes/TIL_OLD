@@ -19,6 +19,7 @@ Today I Leaned....
 - [MySQL](#mysql)
 - [NodeJS](#nodejs)
 - [React](#react)
+- [Review](Review)
 - [Spring](#spring)
 - [Web](#web)
 - [ETC](#etc)
@@ -145,6 +146,11 @@ Today I Leaned....
 
 - 우아한 테크 3기 강좌 - React && TypeScript
   - [Class 1](React/wooahan-react/class_1.md)
+
+### [Review](Review)
+
+- Development
+  - [소프트웨어 학습 태도](Review/Development/1.md)
 
 ### [Spring](Spring)
 
