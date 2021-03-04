@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "02e5dc52ba08546d",
+    "type": "split",
+    "children": [
+      {
+        "id": "978203e9bf522246",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CSS/README.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b8cd851d6983048",
+    "type": "split",
+    "children": [
+      {
+        "id": "5072b0c0208e6ab6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d7e8812464d0d3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ef46f4d23f6cd5a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f0ea3a599221baaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "20b84578c38a9061",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc762270b701c7de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSS/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "CSS/README.md",
+    "Docker/no_space_left_on_device_error.md",
+    "Docker/README.md",
+    "Docker/Docker에서 script 파일로 서버 동작하기.md",
+    "Docker/CheatSheet.md",
+    "Book/Node.js 디자인 패턴/contents/chapter_2.md",
+    "Web/README.md",
+    "Book/README.md",
+    "Book/훌륭한 프로그래머 되는 법.md",
+    "Review/index.md"
+  ]
+}
