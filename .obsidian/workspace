@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "978203e9bf522246",
+        "id": "5e7ecf541794e026",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CSS/CSS.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -40,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#인덱스",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -77,24 +73,35 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "fd2f72faf0373b70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 100
   },
   "lastOpenFiles": [
-    "CSS/README.md",
-    "Docker/no_space_left_on_device_error.md",
-    "Docker/README.md",
-    "Docker/Docker에서 script 파일로 서버 동작하기.md",
-    "Docker/CheatSheet.md",
-    "Book/Node.js 디자인 패턴/contents/chapter_2.md",
-    "Web/README.md",
-    "Book/README.md",
-    "Book/훌륭한 프로그래머 되는 법.md",
-    "Review/index.md"
+    "Book/Book.md",
+    "README.md",
+    "Lecture/Lecture.md",
+    "Lecture/JavaScript ES6+ 제대로 알아보기/JavaScript ES6+ 제대로 알아보기.md",
+    "Lecture/JavaScript ES6+ 제대로 알아보기/1강. BlockScope.md",
+    "Lecture/JavaScript ES6+ 제대로 알아보기/Untitled.md",
+    "Lecture/Untitled.md",
+    "Review/Review.md",
+    "Book/디스커버리 Go 언어/디스커버리 Go 언어.md",
+    "draft.md"
   ]
 }
