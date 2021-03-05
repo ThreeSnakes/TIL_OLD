@@ -4,12 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5e7ecf541794e026",
+        "id": "879625cfe003f796",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +88,16 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "fae9f72c071aa88f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -93,15 +107,15 @@
     "width": 100
   },
   "lastOpenFiles": [
-    "Book/Book.md",
     "README.md",
-    "Lecture/Lecture.md",
-    "Lecture/JavaScript ES6+ 제대로 알아보기/JavaScript ES6+ 제대로 알아보기.md",
-    "Lecture/JavaScript ES6+ 제대로 알아보기/1강. BlockScope.md",
-    "Lecture/JavaScript ES6+ 제대로 알아보기/Untitled.md",
-    "Lecture/Untitled.md",
-    "Review/Review.md",
-    "Book/디스커버리 Go 언어/디스커버리 Go 언어.md",
-    "draft.md"
+    "그래프뷰.png",
+    "React/React.md",
+    "React/contents/hook에서 2개의 변수가 동시에 수정 될때.md",
+    "DailyNote/2021.03/2021.03.05.md",
+    "DailyNote/2021.03/2021.03.md",
+    "스크린샷 2021-03-05 오후 7.21.21.png",
+    "draft.md",
+    "스크린샷 2021-03-05 오후 7.05.51.png",
+    "React/contents/hook.md"
   ]
 }
