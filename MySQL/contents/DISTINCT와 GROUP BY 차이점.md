@@ -1,7 +1,8 @@
-### DISTINCT와 GROUP BY 차이점
-DISTINCT: Unique한 컬럼이나 중복된값을 제외하고 조회할때 사용.
+# DISTINCT와 GROUP BY 차이점
 
-GROUP BY: 데이터를 그룹핑해서 그 결과를 가져오는 경우에 사용.
+**DISTINCT**: Unique한 컬럼이나 중복된값을 제외하고 조회할때 사용.
+
+**GROUP BY**: 데이터를 그룹핑해서 그 결과를 가져오는 경우에 사용.
 
 DISTICNT <---> GROUP BY  일부 쿼리에서는 서로 바꿔서 사용할 수 있다.
 

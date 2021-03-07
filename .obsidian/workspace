@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "879625cfe003f796",
+        "id": "f20b27d254fc4c28",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "README.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -53,7 +50,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 453
   },
   "right": {
     "id": "f0ea3a599221baaf",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,28 +90,26 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 276
   },
   "lastOpenFiles": [
-    "README.md",
-    "그래프뷰.png",
-    "React/React.md",
-    "React/contents/hook에서 2개의 변수가 동시에 수정 될때.md",
-    "DailyNote/2021.03/2021.03.05.md",
+    "CSS/CSS.md",
+    "CSS/contents/화면 중앙 정렬.md",
+    "CSS/contents/Untitled.md",
+    "DailyNote/2021.03/2021.03.07.md",
     "DailyNote/2021.03/2021.03.md",
-    "스크린샷 2021-03-05 오후 7.21.21.png",
-    "draft.md",
-    "스크린샷 2021-03-05 오후 7.05.51.png",
-    "React/contents/hook.md"
+    "README.md",
+    "OOP/OOP.md",
+    "OOP/contents/Untitled.md",
+    "OOP/Untitled.md",
+    "Book/객체지향 사고 프로세스/contents/chapter7.md"
   ]
 }

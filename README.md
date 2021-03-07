@@ -26,6 +26,7 @@ Today I Leaned....
 - [Linux](Linux/Linux.md)
 - [MySQL](MySQL/MySQL.md)
 - [NodeJS](NodeJS/NodeJS.md)
+- [OOP](OOP/OOP.md)
 - [React](React/React.md)
 - [Review](Review/Review.md)
 - [Spring](Spring/Spring.md)
@@ -33,3 +34,6 @@ Today I Leaned....
 
 ## 일별 기록
 - [DailyNote](DailyNote/DailyNote.md)
+
+## 이직 관련
+- [TurnOver](TurnOver/TurnOver.md)

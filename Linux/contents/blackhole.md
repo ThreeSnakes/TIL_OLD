@@ -1,4 +1,4 @@
-### 블랙홀 (/dev/null)
+# 블랙홀 (/dev/null)
 
 `codebuild`에서 빌드할때 로그가 죄다 `cloudwatch` 로그로 발생해서 이를 수정해달라는 요청이 왔다.
 

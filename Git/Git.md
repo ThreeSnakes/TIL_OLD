@@ -11,3 +11,7 @@
 - [Github에 100MB 이상 파일 업로드 하는 방법](contents/Github%EC%97%90%20100MB%20%EC%9D%B4%EC%83%81%20%ED%8C%8C%EC%9D%BC%20%EC%97%85%EB%A1%9C%EB%93%9C%20%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
 - [Github Pull Request 템플릿 적용 방법](contents/Pull%20Request%20%ED%85%9C%ED%94%8C%EB%A6%BF%20%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 - [Github secret 사용법](contents/Github%20secret%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
+- [로컬 파일 제외하기](contents/로컬%20파일%20제외하기.md)
+- [git branch Commit 압축하여 가져오기](contents/git%20branch%20Commit%20압축하여%20가져오기.md)
+- [로컬 폴더 remote와 연결하기](contents/로컬%20폴더%20remote와%20연결하기.md)
+- [Git Log Search](contents/Git%20Log%20Search.md)

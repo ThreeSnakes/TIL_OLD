@@ -1,17 +1,4 @@
-# MySQL CheatSheet
-
-## 목차
-
-- [테이블 추가](cheat_sheet.md#%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%B6%94%EA%B0%80)
-- [테이블 삭제](cheat_sheet.md#%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%82%AD%EC%A0%9C)
-- [컬럼 추가](cheat_sheet.md#%EC%BB%AC%EB%9F%BC-%EC%B6%94%EA%B0%80)
-- [컬럼 수정](cheat_sheet.md#%EC%BB%AC%EB%9F%BC-%EC%88%98%EC%A0%95)
-- [유니크 키 삽입](cheat_sheet.md#%EC%9C%A0%EB%8B%88%ED%81%AC-%ED%82%A4-%EC%82%BD%EC%9E%85)
-- [외래키 삽입](cheat_sheet.md#%EC%99%B8%EB%9E%98%ED%82%A4-%EC%82%BD%EC%9E%85)
-- [유니크/인덱스 삭제](cheat_sheet.md#%EC%9C%A0%EB%8B%88%ED%81%AC/%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EC%82%AD%EC%A0%9C)
-- [ROW 추가](cheat_sheet.md#ROW-%EC%B6%94%EA%B0%80)
-- [ROW 업데이트](cheat_sheet.md#ROW-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8)
-- [DB 커넥션 개수 체크 및 상태 확인](cheat_sheet.md#db-%EC%BB%A4%EB%84%A5%EC%85%98-%EA%B0%9C%EC%88%98-%EC%B2%B4%ED%81%AC-%EB%B0%8F-%EC%83%81%ED%83%9C-%ED%99%95%EC%9D%B8)
+# CheatSheet
 
 ## 테이블 추가
 
