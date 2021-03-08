@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f20b27d254fc4c28",
+        "id": "11e94525a8a9c07d",
         "type": "leaf",
         "active": true,
         "state": {
@@ -94,22 +94,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 276
+    "width": 276,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "CSS/CSS.md",
-    "CSS/contents/화면 중앙 정렬.md",
-    "CSS/contents/Untitled.md",
-    "DailyNote/2021.03/2021.03.07.md",
-    "DailyNote/2021.03/2021.03.md",
-    "README.md",
-    "OOP/OOP.md",
-    "OOP/contents/Untitled.md",
-    "OOP/Untitled.md",
-    "Book/객체지향 사고 프로세스/contents/chapter7.md"
+    "JavaScript/contents/how-to-write-js-as-well.md",
+    "JavaScript/contents/debounce.md",
+    "JavaScript/contents/1000단위마다 컴마찍기.md",
+    "Front/Front.md",
+    "DailyNote/2021.03/2021.03.08.md",
+    "Front/contents/defer와 async attribute는 어떤 역할을 할까?.md",
+    "Front/contents/브라우저가 HTML 코드 중 `<script>`, `<link rel=\"stylesheet\">` 태그를 만났을 때 다음 태그들을 처리하기 전까지 하는 일.md",
+    "Front/contents/`<script>`가 `<head>`에 들어가면 왜 안좋을까?.md",
+    "Front/contents/`<link rel=\"stylesheet\">`에 media attribute를 넣는게 왜 좋을까?.md",
+    "Front/contents/Untitled.md"
   ]
 }
