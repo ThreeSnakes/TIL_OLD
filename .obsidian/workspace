@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "11e94525a8a9c07d",
+        "id": "56c7c372e596459f",
         "type": "leaf",
         "active": true,
         "state": {
@@ -102,15 +102,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "JavaScript/contents/how-to-write-js-as-well.md",
-    "JavaScript/contents/debounce.md",
-    "JavaScript/contents/1000단위마다 컴마찍기.md",
-    "Front/Front.md",
-    "DailyNote/2021.03/2021.03.08.md",
-    "Front/contents/defer와 async attribute는 어떤 역할을 할까?.md",
-    "Front/contents/브라우저가 HTML 코드 중 `<script>`, `<link rel=\"stylesheet\">` 태그를 만났을 때 다음 태그들을 처리하기 전까지 하는 일.md",
-    "Front/contents/`<script>`가 `<head>`에 들어가면 왜 안좋을까?.md",
-    "Front/contents/`<link rel=\"stylesheet\">`에 media attribute를 넣는게 왜 좋을까?.md",
-    "Front/contents/Untitled.md"
+    "DailyNote/2021.03/2021.03.md",
+    "DailyNote/DailyNote.md",
+    "DailyNote/2021.03/2021.03.09.md",
+    "NodeJS/contents/Module/n.md",
+    "Book/객체지향 사고 프로세스/객체지향 사고 프로세스.md",
+    "Book/객체지향 사고 프로세스/contents/chapter_3.md",
+    "Book/객체지향 사고 프로세스/contents/chapter_2.md",
+    "Book/객체지향 사고 프로세스/contents/Untitled.md",
+    "Book/객체지향 사고 프로세스/contents/chapter_1.md",
+    "Book/객체지향 사고 프로세스/contents/chapter7.md"
   ]
 }
