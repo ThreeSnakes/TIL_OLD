@@ -10,6 +10,7 @@
 ```js
 // 간단 구현.
 // array에 iterator 심볼을 달아주면 된다.
+// 근데 array이는 이미 iterable 객체여서 궂이 이렇게 할 필요가 없다.
 const array = [0, 1, 2, 3, 4, 5];
 const iter = offsets[Symbol.iterator]();
 

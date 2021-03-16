@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c2179631913150a8",
+        "id": "150c663c82a825b8",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Front/사내 웹 성능 개선 Study/contents/2021_03_15.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front/사내 웹 성능 개선 Study/contents/2021_03_15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +90,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Front/사내 웹 성능 개선 Study/contents/2021_03_15.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -108,15 +102,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Front/사내 웹 성능 개선 Study/contents/2021_03_15.md",
-    "Front/사내 웹 성능 개선 Study/contents/2021_03_08.md",
-    "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
-    "Front/사내 웹 성능 개선 Study/contents/Untitled.md",
-    "JavaScript/JavaScript.md",
-    "JavaScript/contents/Untitled.md",
-    "NodeJS/contents/메모리 사용량 보는법.md",
-    "DailyNote/2021.03/2021.03.15.md",
-    "NodeJS/NodeJS.md",
-    "NodeJS/contents/err_heap_out_of_memory.md"
+    "DailyNote/2021.03/2021.03.md",
+    "DailyNote/2021.03/2021.03.16.md",
+    "Lecture/JavaScript ES6+ 제대로 알아보기/JavaScript ES6+ 제대로 알아보기.md",
+    "DailyNote/2021.03/2021.03.12.md",
+    "DailyNote/2021.03/2021.03.11.md",
+    "DailyNote/2021.03/2021.03.10.md",
+    "DailyNote/2021.03/2021.03.09.md",
+    "DailyNote/2021.03/2021.03.08.md",
+    "DailyNote/2021.03/2021.03.07.md",
+    "DailyNote/2021.03/2021.03.05.md"
   ]
 }
