@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "150c663c82a825b8",
+        "id": "33a8742148267334",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -102,15 +102,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "DailyNote/2021.03/2021.03.md",
+    "DailyNote/2021.03/2021.03.17.md",
     "DailyNote/2021.03/2021.03.16.md",
+    "DailyNote/2021.03/2021.03.md",
     "Lecture/JavaScript ES6+ 제대로 알아보기/JavaScript ES6+ 제대로 알아보기.md",
     "DailyNote/2021.03/2021.03.12.md",
     "DailyNote/2021.03/2021.03.11.md",
     "DailyNote/2021.03/2021.03.10.md",
     "DailyNote/2021.03/2021.03.09.md",
     "DailyNote/2021.03/2021.03.08.md",
-    "DailyNote/2021.03/2021.03.07.md",
-    "DailyNote/2021.03/2021.03.05.md"
+    "DailyNote/2021.03/2021.03.07.md"
   ]
 }
