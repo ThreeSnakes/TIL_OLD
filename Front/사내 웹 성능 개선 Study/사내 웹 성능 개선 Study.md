@@ -11,3 +11,9 @@
   - vector image(ex: SVG)란? 어떤 경우 좋을까?
 	- img의 srcset, sizes attribute는 어떤 역할을 할까? (문서 내의 https://web.dev/serve-responsive-images/ 참고)
 	- Image CDN이란?
+- [2021_03_22](contents/2021_03_22.md)
+	- Image CDN이란?
+	- JPG의 Compression Level, HTTP 응답 크기 줄이기 (이미지 크기 최소화)
+	- `<picture>` element, srcset과의 차이점
+	- HTTP 응답 크기 줄이기 (CSS)
+	- HTTP 응답 크기 줄이기 (JS)
