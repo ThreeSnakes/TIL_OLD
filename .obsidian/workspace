@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
+            "file": "NodeJS/NodeJS.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
+                "file": "NodeJS/NodeJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md"
+                "file": "NodeJS/NodeJS.md"
               }
             }
           }
@@ -108,15 +108,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "NodeJS/NodeJS.md",
+    "DailyNote/2021.03/2021.03.25.md",
+    "NodeJS/contents/Untitled.md",
+    "DailyNote/2021.03/2021.03.24.md",
     "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
     "Front/사내 웹 성능 개선 Study/contents/2021_03_22.md",
     "DailyNote/2021.03/2021.03.md",
     "Book/객체지향 사고 프로세스/객체지향 사고 프로세스.md",
     "NodeJS/contents/Module/typeid.md",
-    "DailyNote/2021.03/2021.03.24.md",
-    "Book/객체지향 사고 프로세스/contents/chapter_10.md",
-    "Book/객체지향 사고 프로세스/contents/chapter_9.md",
-    "Book/객체지향 사고 프로세스/contents/chapter_8.md",
-    "Book/객체지향 사고 프로세스/contents/Untitled.md"
+    "Book/객체지향 사고 프로세스/contents/chapter_10.md"
   ]
 }
