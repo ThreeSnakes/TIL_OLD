@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NodeJS/NodeJS.md",
+            "file": "DailyNote/2021.03/2021.03.29.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NodeJS/NodeJS.md",
+                "file": "DailyNote/2021.03/2021.03.29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NodeJS/NodeJS.md"
+                "file": "DailyNote/2021.03/2021.03.29.md"
               }
             }
           }
@@ -108,15 +108,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "NodeJS/NodeJS.md",
+    "DailyNote/2021.03/2021.03.29.md",
     "DailyNote/2021.03/2021.03.25.md",
-    "NodeJS/contents/Untitled.md",
-    "DailyNote/2021.03/2021.03.24.md",
-    "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
-    "Front/사내 웹 성능 개선 Study/contents/2021_03_22.md",
-    "DailyNote/2021.03/2021.03.md",
-    "Book/객체지향 사고 프로세스/객체지향 사고 프로세스.md",
-    "NodeJS/contents/Module/typeid.md",
-    "Book/객체지향 사고 프로세스/contents/chapter_10.md"
+    "Git/contents/git branch Commit 압축하여 가져오기.md",
+    "Git/contents/git file 상태 Unstage로 변경하기.md",
+    "Git/contents/git ignore Setting 방법.md",
+    "Git/contents/Git Log Search.md",
+    "Git/contents/Git Subtree 조사.md",
+    "Git/contents/Github secret 사용법.md",
+    "Git/contents/Github에 100MB 이상 파일 업로드 하는 방법.md",
+    "Git/contents/Pull Request 템플릿 적용하기.md"
   ]
 }
