@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "62336ffd3806ef8a",
+        "id": "b54684c39e3a65e9",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DailyNote/2021.03/2021.03.29.md",
+            "file": "DailyNote/2021.04/2021.04.12.md",
             "mode": "source"
           }
         }
@@ -69,10 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/2021.03/2021.03.29.md",
+                "file": "DailyNote/2021.04/2021.04.12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/2021.03/2021.03.29.md"
+                "file": "DailyNote/2021.04/2021.04.12.md"
               }
             }
           }
@@ -107,16 +108,17 @@
     "width": 276,
     "collapsed": true
   },
+  "active": "b54684c39e3a65e9",
   "lastOpenFiles": [
-    "DailyNote/2021.03/2021.03.29.md",
-    "DailyNote/2021.03/2021.03.25.md",
-    "Git/contents/git branch Commit 압축하여 가져오기.md",
-    "Git/contents/git file 상태 Unstage로 변경하기.md",
-    "Git/contents/git ignore Setting 방법.md",
-    "Git/contents/Git Log Search.md",
-    "Git/contents/Git Subtree 조사.md",
-    "Git/contents/Github secret 사용법.md",
-    "Git/contents/Github에 100MB 이상 파일 업로드 하는 방법.md",
-    "Git/contents/Pull Request 템플릿 적용하기.md"
+    "DailyNote/2021.04/2021.04.12.md",
+    "Book/객체지향 사고 프로세스/contents/chapter_11.md",
+    "DailyNote/2021.03/2021.03.20.md",
+    "DailyNote/2021.03/2021.03.22.md",
+    "DailyNote/2021.03/2021.03.23.md",
+    "DailyNote/2021.03/2021.03.24.md",
+    "Book/객체지향 사고 프로세스/객체지향 사고 프로세스.md",
+    "Book/객체지향 사고 프로세스/contents/chapter_9.md",
+    "Book/객체지향 사고 프로세스/contents/chapter_10.md",
+    "Book/객체지향 사고 프로세스/contents/Untitled.md"
   ]
 }
