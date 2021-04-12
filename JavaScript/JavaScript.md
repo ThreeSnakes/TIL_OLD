@@ -13,3 +13,5 @@
 - [1000단위마다 컴마찍기](contents/1000%EB%8B%A8%EC%9C%84%EB%A7%88%EB%8B%A4%20%EC%BB%B4%EB%A7%88%EC%B0%8D%EA%B8%B0.md)
 - [contents/debounce](contents/debounce.md)
 - [간단한 Iterator 구현](contents/간단한%20Iterator%20구현.md)
+- [pattern](contents/pattern/pattern.md)
+	- singleton

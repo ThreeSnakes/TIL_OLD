@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DailyNote/2021.04/2021.04.12.md",
+            "file": "DailyNote/2021.04/2021.04.12_월.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/2021.04/2021.04.12.md",
+                "file": "DailyNote/2021.04/2021.04.12_월.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/2021.04/2021.04.12.md"
+                "file": "DailyNote/2021.04/2021.04.12_월.md"
               }
             }
           }
@@ -110,15 +110,15 @@
   },
   "active": "b54684c39e3a65e9",
   "lastOpenFiles": [
+    "DailyNote/2021.04/2021.04.12_월.md",
     "DailyNote/2021.04/2021.04.12.md",
-    "Book/객체지향 사고 프로세스/contents/chapter_11.md",
-    "DailyNote/2021.03/2021.03.20.md",
-    "DailyNote/2021.03/2021.03.22.md",
-    "DailyNote/2021.03/2021.03.23.md",
-    "DailyNote/2021.03/2021.03.24.md",
-    "Book/객체지향 사고 프로세스/객체지향 사고 프로세스.md",
-    "Book/객체지향 사고 프로세스/contents/chapter_9.md",
-    "Book/객체지향 사고 프로세스/contents/chapter_10.md",
-    "Book/객체지향 사고 프로세스/contents/Untitled.md"
+    "README.md",
+    "JavaScript/JavaScript.md",
+    "JavaScript/contents/pattern/pattern.md",
+    "JavaScript/contents/pattern/Untitled.md",
+    "JavaScript/contents/Untitled.md",
+    "JavaScript/contents/url-encode-decode.md",
+    "MySQL/contents/cheat_sheet.md",
+    "MySQL/MySQL.md"
   ]
 }

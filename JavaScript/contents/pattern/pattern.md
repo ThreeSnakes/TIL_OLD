@@ -1,0 +1,3 @@
+# pattern
+
+- [singleton](singleton.md)
