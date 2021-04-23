@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b54684c39e3a65e9",
+        "id": "0dc17636c5573bdc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DailyNote/2021.04/2021.04.12_월.md",
+            "file": "NodeJS/contents/Node 12 Version Up.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#인덱스",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/2021.04/2021.04.12_월.md",
+                "file": "NodeJS/contents/Node 12 Version Up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/2021.04/2021.04.12_월.md"
+                "file": "NodeJS/contents/Node 12 Version Up.md"
               }
             }
           }
@@ -108,17 +108,17 @@
     "width": 276,
     "collapsed": true
   },
-  "active": "b54684c39e3a65e9",
+  "active": "0dc17636c5573bdc",
   "lastOpenFiles": [
-    "DailyNote/2021.04/2021.04.12_월.md",
-    "DailyNote/2021.04/2021.04.12.md",
-    "README.md",
-    "JavaScript/JavaScript.md",
-    "JavaScript/contents/pattern/pattern.md",
-    "JavaScript/contents/pattern/Untitled.md",
-    "JavaScript/contents/Untitled.md",
-    "JavaScript/contents/url-encode-decode.md",
-    "MySQL/contents/cheat_sheet.md",
-    "MySQL/MySQL.md"
+    "NodeJS/contents/Node 12 Version Up.md",
+    "Lecture/현실 세상의 TDD - 안정감을 주는 코드 작성 방법/contents/attach/Untitled.md",
+    "DailyNote/2021.04/2021.04.23_금.md",
+    "Lecture/현실 세상의 TDD - 안정감을 주는 코드 작성 방법/contents/Untitled.md",
+    "DailyNote/2021.04/2021.04.21_수.md",
+    "DailyNote/2021.04/2021.04.22_목.md",
+    "NodeJS/contents/메모리 사용량 보는법.md",
+    "Front/사내 웹 성능 개선 Study/contents/2021_04_22.md",
+    "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
+    "Front/사내 웹 성능 개선 Study/contents/2021_04_12.md"
   ]
 }
