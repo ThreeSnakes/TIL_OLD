@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0dc17636c5573bdc",
+        "id": "96fd04d0d7dc5bc9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DailyNote/2021.04/2021.04.26_월.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/2021.04/2021.04.26_월.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DailyNote/2021.04/2021.04.26_월.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -108,17 +102,17 @@
     "width": 276,
     "collapsed": true
   },
-  "active": "0dc17636c5573bdc",
+  "active": "96fd04d0d7dc5bc9",
   "lastOpenFiles": [
-    "DailyNote/2021.04/2021.04.26_월.md",
-    "DailyNote/DailyNote.md",
-    "DailyNote/2021.04/2021.04.md",
-    "DailyNote/2021.03/2021.03.md",
-    "Front/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
-    "DailyNote/2021.03/2021.03.22.md",
-    "DailyNote/2021.03/2021.03.20.md",
-    "DailyNote/2021.03/2021.03.17.md",
-    "DailyNote/2021.03/2021.03.19.md",
-    "DailyNote/2021.03/2021.03.18.md"
+    "DailyNote/2021.04/2021.04.28_수.md",
+    "NodeJS/contents/Module/Express.md",
+    "NodeJS/NodeJS.md",
+    "NodeJS/contents/Module/Untitled.md",
+    "Lecture/Toss slash 21/Toss slash 21.md",
+    "Lecture/Lecture.md",
+    "Lecture/Toss slash 21/contents/Untitled.md",
+    "Lecture/Toss slash 21/Untitled.md",
+    "Redis/contents/Redis 교육.md",
+    "Redis/contents/Untitled.md"
   ]
 }
