@@ -162,5 +162,5 @@ git pull
 ```
 
 - 참조
-    - [http://readme.skplanet.com/?p=8542](http://readme.skplanet.com/?p=8542)
+    - ~~http://readme.skplanet.com/?p=8542~~ 현재는 블로그가 사라졌다.
     - [http://homoefficio.github.io/2015/07/18/git-subtree/](http://homoefficio.github.io/2015/07/18/git-subtree/)

@@ -1,1 +1,5 @@
-{"folder":"DailyNote/2021.04","autorun":true,"format":"YYYY.MM.DD_ddd"}
+{
+  "folder": "DailyNote/2021.06",
+  "autorun": false,
+  "format": "YYYY.MM.DD_ddd"
+}

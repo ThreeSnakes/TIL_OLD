@@ -1,0 +1,15 @@
+{
+  "strictLineBreaks": true,
+  "spellcheck": true,
+  "showLineNumber": true,
+  "tabSize": 4,
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "readableLineLength": false,
+  "foldHeading": false,
+  "attachmentFolderPath": "./attach",
+  "fileSortOrder": "alphabetical"
+}

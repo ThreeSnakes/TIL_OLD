@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "96fd04d0d7dc5bc9",
+        "id": "c421b0d15b6944db",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "schedule",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,13 +68,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md"
+              }
             }
           }
         ],
@@ -99,20 +105,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276,
-    "collapsed": true
+    "width": 276
   },
-  "active": "96fd04d0d7dc5bc9",
+  "active": "c421b0d15b6944db",
   "lastOpenFiles": [
-    "DailyNote/2021.04/2021.04.28_수.md",
-    "NodeJS/contents/Module/Express.md",
-    "NodeJS/NodeJS.md",
-    "NodeJS/contents/Module/Untitled.md",
-    "Lecture/Toss slash 21/Toss slash 21.md",
-    "Lecture/Lecture.md",
-    "Lecture/Toss slash 21/contents/Untitled.md",
-    "Lecture/Toss slash 21/Untitled.md",
-    "Redis/contents/Redis 교육.md",
-    "Redis/contents/Untitled.md"
+    "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
+    "Book/객체지향 사고 프로세스/객체지향 사고 프로세스.md",
+    "Book/개발자에서 아키텍트로/contents/무제노트.md",
+    "Git/contents/Git Subtree 조사.md",
+    "README.md",
+    "Web/Web.md",
+    "AWS/contents/DynamoDB_Backup_and_Test.md",
+    "Web/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
+    "NodeJS/contents/메모리 사용량 보는법.md",
+    "Book/디스커버리 Go 언어/Chapter-3.md"
   ]
 }
