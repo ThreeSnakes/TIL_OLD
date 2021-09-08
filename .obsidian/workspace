@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
-            "mode": "source"
+            "file": "MySQL/contents/cheat_sheet.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "schedule",
+                "query": "npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453
+    "width": 240
   },
   "right": {
     "id": "f0ea3a599221baaf",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
+                "file": "MySQL/contents/cheat_sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md"
+                "file": "MySQL/contents/cheat_sheet.md"
               }
             }
           }
@@ -105,19 +105,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276
+    "width": 276,
+    "collapsed": true
   },
   "active": "c421b0d15b6944db",
   "lastOpenFiles": [
-    "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
-    "Book/객체지향 사고 프로세스/객체지향 사고 프로세스.md",
-    "Book/개발자에서 아키텍트로/contents/무제노트.md",
-    "Git/contents/Git Subtree 조사.md",
-    "README.md",
-    "Web/Web.md",
-    "AWS/contents/DynamoDB_Backup_and_Test.md",
-    "Web/사내 웹 성능 개선 Study/사내 웹 성능 개선 Study.md",
-    "NodeJS/contents/메모리 사용량 보는법.md",
-    "Book/디스커버리 Go 언어/Chapter-3.md"
+    "MySQL/contents/cheat_sheet.md",
+    "MySQL/contents/index.md",
+    "MySQL/contents/insert-with-case.md",
+    "MySQL/contents/update_row_by_other_table_row.md",
+    "NodeJS/contents/Node 12 Version Up.md",
+    "NodeJS/contents/Module/apidoc.md",
+    "NodeJS/contents/Module/bunyan.md",
+    "NodeJS/contents/Module/Express.md",
+    "NodeJS/contents/Module/jasmine-node.md",
+    "NodeJS/contents/Module/n.md"
   ]
 }
