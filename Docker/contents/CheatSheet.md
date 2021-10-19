@@ -50,5 +50,6 @@ docker exec -i '컨테이너ID'
 ```
 # 컨테이너/이미지 전부 삭제. 이러면 다시 컨테이너를 구성하고 이미지 받는데 오래 걸림..
 docker rm $(docker ps -a -q)
-docker rmi $(docker images -q) 
+docker rmi $(docker images -q)
+docker rmi $(docker images -f "dangling=true" -q)
 ```
