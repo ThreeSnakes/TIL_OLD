@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MySQL/contents/cheat_sheet.md",
+            "file": "Docker/contents/CheatSheet.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/contents/cheat_sheet.md",
+                "file": "Docker/contents/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/contents/cheat_sheet.md"
+                "file": "Docker/contents/CheatSheet.md"
               }
             }
           },
@@ -118,6 +118,8 @@
   },
   "active": "1b614ed7b3ab35e3",
   "lastOpenFiles": [
+    "Docker/contents/CheatSheet.md",
+    "Docker/Docker.md",
     "MySQL/contents/cheat_sheet.md",
     "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
     "Book/도메인 주도 설계 철저 입문/contents/도메인 주도 설계란.md",
@@ -125,8 +127,6 @@
     "Book/디스커버리 Go 언어/디스커버리 Go 언어.md",
     "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
     "Lecture/한달한권 - 클린코드/한달한권 - 클린코드.md",
-    "Lecture/현실 세상의 TDD - 안정감을 주는 코드 작성 방법/현실 세상의 TDD - 안정감을 주는 코드 작성 방법.md",
-    "Lecture/한달한권 - 클린코드/contents/Chapter 1. 의미있는 이름.md",
-    "Lecture/Lecture.md"
+    "Lecture/현실 세상의 TDD - 안정감을 주는 코드 작성 방법/현실 세상의 TDD - 안정감을 주는 코드 작성 방법.md"
   ]
 }
