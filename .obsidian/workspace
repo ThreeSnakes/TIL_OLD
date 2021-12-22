@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NodeJS/contents/NestJS.md",
+            "file": "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NodeJS/contents/NestJS.md",
+                "file": "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NodeJS/contents/NestJS.md"
+                "file": "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md"
               }
             }
           },
@@ -118,15 +118,15 @@
   },
   "active": "1b614ed7b3ab35e3",
   "lastOpenFiles": [
+    "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
+    "Book/도메인 주도 설계 철저 입문/contents/2. 값 객체.md",
+    "Book/도메인 주도 설계 철저 입문/contents/1. 도메인 주도 설계란.md",
+    "NodeJS/NodeJS.md",
     "NodeJS/contents/NestJS.md",
     "Docker/contents/CheatSheet.md",
     "Docker/Docker.md",
     "MySQL/contents/cheat_sheet.md",
-    "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
-    "Book/도메인 주도 설계 철저 입문/contents/도메인 주도 설계란.md",
     "Book/Book.md",
-    "Book/디스커버리 Go 언어/디스커버리 Go 언어.md",
-    "Book/개발자에서 아키텍트로/개발자에서 아키텍트로.md",
-    "Lecture/한달한권 - 클린코드/한달한권 - 클린코드.md"
+    "Book/디스커버리 Go 언어/디스커버리 Go 언어.md"
   ]
 }
