@@ -12,5 +12,7 @@
   "readableLineLength": false,
   "foldHeading": false,
   "attachmentFolderPath": "./attach",
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "legacyEditor": false,
+  "livePreview": true
 }

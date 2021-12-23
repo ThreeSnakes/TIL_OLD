@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
-            "mode": "source"
+            "file": "Book/도메인 주도 설계 철저 입문/contents/1. 도메인 주도 설계란.md",
+            "mode": "source",
+            "source": true
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
+                "file": "Book/도메인 주도 설계 철저 입문/contents/1. 도메인 주도 설계란.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md"
+                "file": "Book/도메인 주도 설계 철저 입문/contents/1. 도메인 주도 설계란.md"
               }
             }
           },
@@ -118,9 +119,9 @@
   },
   "active": "1b614ed7b3ab35e3",
   "lastOpenFiles": [
+    "Book/도메인 주도 설계 철저 입문/contents/1. 도메인 주도 설계란.md",
     "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
     "Book/도메인 주도 설계 철저 입문/contents/2. 값 객체.md",
-    "Book/도메인 주도 설계 철저 입문/contents/1. 도메인 주도 설계란.md",
     "NodeJS/NodeJS.md",
     "NodeJS/contents/NestJS.md",
     "Docker/contents/CheatSheet.md",
