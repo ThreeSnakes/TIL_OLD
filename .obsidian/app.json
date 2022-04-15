@@ -11,8 +11,9 @@
   "newLinkFormat": "relative",
   "readableLineLength": false,
   "foldHeading": false,
-  "attachmentFolderPath": "./attach",
+  "attachmentFolderPath": "Book/도메인 주도 개발 시작하기",
   "fileSortOrder": "alphabetical",
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "communityThemeSortOrder": "download"
 }

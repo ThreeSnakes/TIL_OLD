@@ -1,5 +1,9 @@
 {
-  "cssTheme": "Comfort color dark",
+  "cssTheme": "Obsidian Nord",
   "translucency": true,
-  "baseFontSize": 16
+  "baseFontSize": 15,
+  "theme": "obsidian",
+  "textFontFamily": "Victor mono,D2Coding",
+  "interfaceFontFamily": "Victor mono,D2Coding",
+  "monospaceFontFamily": "Victor mono,D2Coding"
 }
