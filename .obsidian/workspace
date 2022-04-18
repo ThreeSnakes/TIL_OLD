@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "722f9ac200a66058",
+        "id": "e1bef13cb3712537",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Book/도메인 주도 개발 시작하기/contents/1. 도메인 모델 시작하기.md",
+            "file": "Book/도메인 주도 개발 시작하기/contents/2. 아키텍처 개요.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289
+    "width": 568.5
   },
   "right": {
     "id": "f0ea3a599221baaf",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/도메인 주도 개발 시작하기/contents/1. 도메인 모델 시작하기.md",
+                "file": "Book/도메인 주도 개발 시작하기/contents/2. 아키텍처 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/도메인 주도 개발 시작하기/contents/1. 도메인 모델 시작하기.md"
+                "file": "Book/도메인 주도 개발 시작하기/contents/2. 아키텍처 개요.md"
               }
             }
           },
@@ -116,17 +116,17 @@
     "direction": "horizontal",
     "width": 276
   },
-  "active": "722f9ac200a66058",
+  "active": "e1bef13cb3712537",
   "lastOpenFiles": [
+    "Book/도메인 주도 개발 시작하기/contents/2. 아키텍처 개요.md",
+    "Book/도메인 주도 개발 시작하기/도메인 주도 개발 시작하기.md",
+    "Book/도메인 주도 개발 시작하기/Pasted image 20220418175730.png",
+    "Book/도메인 주도 개발 시작하기/imgs/Pasted image 20220418155605.png",
+    "Book/도메인 주도 개발 시작하기/imgs/Pasted image 20220418155250.png",
     "Book/도메인 주도 개발 시작하기/contents/1. 도메인 모델 시작하기.md",
+    "Book/도메인 주도 설계 철저 입문/contents/2. 값 객체.md",
     "Book/도메인 주도 설계 철저 입문/contents/1. 도메인 주도 설계란.md",
     "Book/도메인 주도 설계 철저 입문/도메인 주도 설계 철저 입문.md",
-    "Book/도메인 주도 개발 시작하기/도메인 주도 개발 시작하기.md",
-    "Book/Book.md",
-    "Book/도메인 주도 설계 철저 입문/contents/2. 값 객체.md",
-    "README.md",
-    "AWS/contents/DynamoDB_Backup_and_Test.md",
-    "AWS/AWS.md",
-    "AngularJS/contents/ng-style.md"
+    "Book/Book.md"
   ]
 }
