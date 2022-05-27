@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Docker/contents/CheatSheet.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docker/contents/CheatSheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docker/contents/CheatSheet.md"
               }
             }
           },
@@ -118,15 +119,15 @@
   },
   "active": "e1bef13cb3712537",
   "lastOpenFiles": [
+    "Docker/contents/CheatSheet.md",
+    "Docker/contents/Docker에서 script 파일로 서버 동작하기.md",
+    "Docker/Docker.md",
     "README.md",
     "OOP/OOP.md",
     "OOP/contents/DIP.md",
     "Book/도메인 주도 개발 시작하기/contents/2. 아키텍처 개요.md",
     "Book/도메인 주도 개발 시작하기/contents/1. 도메인 모델 시작하기.md",
     "Book/도메인 주도 개발 시작하기/도메인 주도 개발 시작하기.md",
-    "Book/도메인 주도 개발 시작하기/Pasted image 20220418175730.png",
-    "Book/도메인 주도 개발 시작하기/imgs/Pasted image 20220418155605.png",
-    "Book/도메인 주도 개발 시작하기/imgs/Pasted image 20220418155250.png",
-    "Book/도메인 주도 설계 철저 입문/contents/2. 값 객체.md"
+    "Book/도메인 주도 개발 시작하기/Pasted image 20220418175730.png"
   ]
 }
