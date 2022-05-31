@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "vi ~/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
