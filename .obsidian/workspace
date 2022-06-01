@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vi ~/",
+                "query": "widget",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
