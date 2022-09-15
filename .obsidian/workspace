@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NodeJS/NodeJS.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NodeJS/NodeJS.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NodeJS/NodeJS.md"
+                "file": "README.md"
               }
             }
           },
@@ -116,17 +116,17 @@
     "direction": "horizontal",
     "width": 276
   },
-  "active": "5d7e8812464d0d3f",
+  "active": "e1bef13cb3712537",
   "lastOpenFiles": [
-    "NodeJS/contents/Module/nvm.md",
+    "MySQL/MySQL.md",
+    "MySQL/contents/SUBSTRING_INDEX를 활용한 Versioni Update Query.md",
+    "MySQL/contents/slow-delete-query.md",
+    "MySQL/contents/MySQL 쿼리에서 1=1 이 있을 경우와 없을 경우의 성능 차이.md",
+    "MySQL/contents/update_row_by_other_table_row.md",
+    "MySQL/contents/tinyint(1)-vs-tinyint(4).md",
+    "MySQL/contents/max_allowed_packet.md",
+    "MySQL/contents/index.md",
     "NodeJS/NodeJS.md",
-    "AWS/contents/AWS_WebServer용_Image_Init_Script.md",
-    "Docker/contents/CheatSheet.md",
-    "Docker/contents/Docker에서 script 파일로 서버 동작하기.md",
-    "Docker/Docker.md",
-    "README.md",
-    "OOP/OOP.md",
-    "OOP/contents/DIP.md",
-    "Book/도메인 주도 개발 시작하기/contents/2. 아키텍처 개요.md"
+    "NodeJS/contents/Module/nvm.md"
   ]
 }

@@ -17,6 +17,7 @@
 - [WHERE절에 NOT IN 과 IN이 같이 들어가는 경우](contents/in_and_not_in.md)
 - [max_allowed_packet 설정](contents/max_allowed_packet.md)
 - [특정 문자열을 다른 문자열로 변경하기](contents/특정%20문자열을%20다른%20문자열로%20변경하기.md)
+- [SUBSTRING_INDEX를 활용한 Versioni Update Query](contents/SUBSTRING_INDEX를%20활용한%20Versioni%20Update%20Query.md)
 
 
 ## 기타 읽어볼만한 문서
